@@ -1,0 +1,355 @@
+{
+    "product": {
+        "mailcode": "HSIPHQ8CA",
+        "areacode": "HS147Q8C",
+        "name": "Plumbing and Drainage Plus",
+        "shortName": "Plumbing and Drainage Plus",
+        "fullName": "Plumbing and Drainage Plus for Houses",
+        "promotionalHeader": "",
+        "crmId": "26311196-5d4d-4aed-8ab4-317671cc9cc1",
+        "configId": "cbb7c07a-e3ef-4be1-80c9-bd0e347bef92",
+        "termsAndConditionsUrl": "/-/media/UK/Documents/TermsAndConditions/O/Q8C_20240228_tac_v3.pdf",
+        "ipidUrl": "/-/media/UK/Documents/ViewPolicy/O/Q8C_20240708_IPID_v1.pdf",
+        "aboutHomeServeUrl": "/-/media/UK/Documents/About-HomeServes-Services-Aviva-08112024.pdf",
+        "coverType": "Domestic",
+        "partnerName": "HomeServe",
+        "partnerId": "HS",
+        "partnerSalesChannel": "HS",
+        "originator": "HS.com",
+        "serviceIncluded": false,
+        "metaDescription": "Less stress, less cost. Cover your home for blocked sinks, drains, toilets, water leaks & leaking overflow pipes. Discover Plumbing and Drainage Plus Cover.",
+        "pageTabTitle": "Plumbing & Drainage Cover | HomeServe",
+        "content": {
+            "introText": "Cover your home for blocked sinks, drains and toilets, water leaks and leaking overflow pipes.",
+            "promotionalText": "",
+            "priceBoxText": "a month in your first year",
+            "priceBoxAnnualPriceText": "Annual price",
+            "priceBoxExcessText": "Your excess",
+            "priceBoxExcessTextPopup": "Your excess is the amount you'll have to pay upfront every time you claim for a new problem. ",
+            "priceBoxSmallPrint": "Your price will increase at renewal, but you'll always receive a reminder. If you choose to continue into your second year, the expected price for customers who haven't made a claim is {year2MonthlyPrice} a month<a href=\"#price-sp\" class=\"slow-scroll text-white\" role=\"link\">*</a> ({year2YearlyPrice} for the year).",
+            "propertyToggleText": "I need this for a:",
+            "propertyPopupHeader": "Not sure which cover is right for your property?",
+            "propertyPopupBody": "<p class='margin-bottom-10'></p>Select <b>\"House\"</b> if you live in a detached, semi-detached, terrace or town house, or bungalow.<br>Select <b>\"Flat\"</b> if you live in a flat, apartment or maisonette.<br><p class='margin-bottom-10'></p>We don't cover mobile homes, park homes or commercial business premises. For more details, take a look at our <a href='#faq-documents'>Terms &amp; Conditions.</a>",
+            "comparisonIncludesHeader": "Cover for:",
+            "comparisonIncludes": [
+                "Plumbing and drainage problems",
+                "Your water supply pipe"
+            ],
+            "comparisonSubHeaderPrice": "{monthlyPrice} a month",
+            "comparisonPromotionalText": "",
+            "comparisonPromotionalText2": "",
+            "thisInsuranceIsForHeader": "This insurance is for",
+            "thisInsuranceIsFor": [
+                "Homeowners",
+                "People who only want cover for their home's plumbing and drainage"
+            ],
+            "thisInsuranceIsFor2": null,
+            "includesHeader": "What's covered",
+            "includesSubHeader": "",
+            "includes": [
+                "Leaking pipes within your home",
+                "Blocked drains",
+                "Blockages to sinks and toilets",
+                "Leaks or blockages to your water supply pipe",
+                "Dripping or seized taps"
+            ],
+            "excludesHeader": "What isn't covered",
+            "excludesSubHeader": "",
+            "excludes": [
+                "A boiler breakdown that leaves you without heating or hot water",
+                "Guttering",
+                "Soakaways",
+                "Shared drains, or drains and pipes you're not responsible for",
+                "Mixer and digital showers"
+            ],
+            "applyNowButtonText": "Apply now",
+            "customSection": {
+                "header": "",
+                "paragraph": "",
+                "viewMoreButtonText": "",
+                "viewMoreParagraph": "",
+                "smallPrint": ""
+            },
+            "letsGetStartedHeader": "Let's get started",
+            "letsGetStartedParagraph": "<ul class=\"cover-steps\">\n             <li><h3>First, check you're not covered elsewhere</h3>\n\t    This is to make sure you're not paying for cover you don't need.</li>\n\n\t    <li class=\"both\"><h3><a href=\"#faq-eligible\">Check you're eligible</a> - this cover is for homeowners only</h3>\n\t    Cover for mobile homes, park homes, business premises, council and housing association properties is <strong>not</strong> included in this policy.</li>\n\n\t    <li class=\"house\"><h3><a href=\"#faq-eligible\">Check you're eligible</a> - this cover is for homeowners only</h3>\n\t    Cover for flats, apartments, mobile homes, park homes, business premises, council and housing association properties is <strong>not</strong> included in this policy.</li>\n\t    <li class=\"flat\"><h3><a href=\"#faq-eligible\">Check you're eligible</a> - this cover is for homeowners only</h3>\n\t    Cover for houses, bungalows, mobile homes, park homes, business premises, council and housing association properties is <strong>not</strong> included in this policy.</li>\n\t    <li><h3>Don't forget to read the policy documents</h3>\n\t    It's important that you read the <a href=\"#faq-documents\">Insurance Product Information Document</a> and the <a href=\"#faq-documents\">Terms and Conditions</a> before taking out the policy.</li>\n</ul>\n",
+            "letsGetStartedParagraphOneTitle": "First, check you're not covered elsewhere",
+            "letsGetStartedParagraphOne": "This is to make sure you're not paying for cover you don't need.",
+            "letsGetStartedParagraphTwoTitle": "Check you're eligible - this cover is for homeowners only",
+            "letsGetStartedParagraphTwoPartOne": "Cover for ",
+            "letsGetStartedParagraphTwoPartTwo": " mobile homes, park homes, business premises, council and housing association properties is <strong>not</strong> included in this policy.",
+            "housePropertyCriteriaText": "flats, apartments,",
+            "flatPropertyCriteriaText": "houses, bungalows,",
+            "letsGetStartedParagraphThreeTitle": "Don't forget to read the policy documents",
+            "letsGetStartedParagraphThree": "It's important that you read the <a href=\"#\">Insurance Product Information</a> Document and the <a href=\"#\">Terms and Conditions</a> before taking out the policy.",
+            "bcis": {
+                "icon": [
+                    "icon-hs-plumbing"
+                ],
+                "header": "Remove the stress and cost of unexpected plumbing and drainage problems...",
+                "paragraph": "Did you know the average cost to repair 2 metres of leaking pipe is <strong>&pound;350</strong>?\n<br />\nWith Plumbing and Drainage Plus, you only pay the first <strong>&pound;30 excess</strong> per claim.",
+                "viewMoreButtonText": "Learn more about costs",
+                "item1": "Unblock a sink",
+                "item1Price": "£105",
+                "item2": "Unblock a toilet",
+                "item2Price": "£134",
+                "item3": "Unblock internal drains",
+                "item3Price": "£138",
+                "item4": "Repair a leaking toilet seal or joint",
+                "item4Price": "£175",
+                "item5": "Repair a concealed burst pipe joint",
+                "item5Price": "£201",
+                "viewMoreParagraph": "With Plumbing and Drainage Plus, you only pay the first <strong>£30 excess</strong> of each claim.",
+                "smallPrint": "BCIS© Research, September 2024 (prices include labour, parts, call-out charges and VAT) "
+            },
+            "whyChooseHomeServe": {
+                "header": null,
+                "subHeader": null,
+                "items": null
+            },
+            "faq": {
+                "header": "Frequently asked questions",
+                "items": [
+                    {
+                        "question": "Am I eligible for this insurance?",
+                        "answer": "<p class=\"house\">This insurance is only for homeowners.\n</br></br>It doesn't include cover for flats, apartments, mobile homes or park homes. Business premises and council and housing association properties cannot be covered.</p>\n\n<p class=\"flat\">This insurance is only for homeowners.\n</br></br>It doesn't include cover for houses, bungalows, mobile homes or park homes. Business premises and council and housing association properties cannot be covered.</p>",
+                        "includestructureddata": false,
+                        "expandedonload": true
+                    },
+                    {
+                        "question": "What information will I need to buy this insurance?",
+                        "answer": "<p>To make buying your cover as simple as possible, please make sure you have the following information to hand:</p>\n<ul>\n<li>Details of the house, bungalow or flat you want to cover</li>\n<li>A valid email address</li>\n<li>The bank details of whoever will pay for the insurance</li>\n</ul>",
+                        "includestructureddata": true,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "What happens if I change my mind?",
+                        "answer": "<p>If you wish to cancel your policy, you can do so at any time by contacting us.</p>\n<p>If this is within the 28-day cancellation period and you haven&rsquo;t made a claim, you will receive a full refund. If you have made a claim, you&rsquo;ll receive a refund minus the number of days you had cover.</p>\n<p>If it&rsquo;s after the 28-days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven&rsquo;t made a claim, you&rsquo;ll receive a refund minus the number of days you had cover.</p>\n<p>See the <a href=\"#headingDTProductdocuments\" class=\"slow-scroll\" id=\"productDocsLink1\">terms and conditions</a> of your policy for more information on cancellation.</p>",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "When will I be able to make my first claim?",
+                        "answer": "<p>Once your policy is set up, there&rsquo;ll be an initial 28-day exclusion period during which you will not be able to claim.</p>\n<p>After that, you can make an unlimited number of claims a year.</p>",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "When and how will I have to pay my excess?",
+                        "answer": "<ul>\n<li>Each separate problem registered will require an excess payment of {excessamount} per claim to be made.</li>\n<li>Unrelated problems which are not associated with each other will require a separate excess payment.</li>\n<li>Where physical investigation work is undertaken, and the problem is not resolved, the excess payment will NOT be refunded.</li>\n<li>The excess payment is taken using a credit or debit card. If you book over the phone, your card details must be input using your telephone keypad.</li>\n<li>We only accept payment using the following cards: MasterCard, Visa and Visa Debit.</li>\n</ul>\n<p>Please read the <a href=\"#headingDTProductdocuments\" class=\"slow-scroll\" id=\"productDocsLink3\">terms and conditions</a> of your policy for full details.</p>\n",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "What if I need a repair that isn't covered by my insurance?",
+                        "answer": "<p>Don't worry. HomeServe's one off repairs team can help!</p>\n<p>We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\">0330 0247 064</a> to find out more.</p>\n<p>For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes.</p>",
+                        "includestructureddata": true,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "Will my local water company help if there's a problem with my supply pipe?",
+                        "answer": "<p>Your local water company may provide assistance if your external underground water supply pipe is leaking. Please contact them directly for details.</p>",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "What happens to the cost of my cover at the end of my first year?",
+                        "answer": "<p>Once your first-year introductory offer ends, the cost of cover will increase. So, if you choose to continue into the second year and haven't made a claim, you can expect to pay <span class=\"house\">{Year2MonthlyPriceShort}</span><span class=\"flat\">{Year2MonthlyPriceShort}</span> a month*, which is <span class=\"house\">{Year2YearlyPriceShort}</span><span class=\"flat\">{Year2YearlyPriceShort}</span> for the year.</p>",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "Will I have to pay any extra fees or charges?",
+                        "answer": "<p>No. You only have to pay your insurance premium and - in the event you make a claim - your excess.</p>\n<p>Premiums include Insurance Premium Tax at the relevant rate and are subject to factors such as inflation and tax rate changes.</p>",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "Who provides this insurance?",
+                        "answer": "<p>This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.</p>\n<p>Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:</p>\n<p>Pitheavlis,\n<br />\nPerth,\n<br />\nScotland\n<br />\nPH2 0NH.</p>\n<p>HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.</p>\n<p>The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority&rsquo;s <a rel=\"noopener noreferrer\" href=\"https://www.fca.org.uk/firms/financial-services-register\" target=\"_blank\" aria-label=\"Financial Services Register (opens in a new tab)\">Financial Services Register</a>.</p>",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    },
+                    {
+                        "question": "Where can I find the product documents and terms and conditions that relate to my cover?",
+                        "answer": "<p>The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be downloaded here.<p/> \n<ul class=\"house\">\n<li><a href=\"{LookupSoCUrl}\" target=\"_blank\" aria-label=\"View Insurance product Information Document in new tab\">Insurance Product Information Document</a></li>\n<li><a href=\"{LookupTaCUrl}\" target=\"_blank\" aria-label=\"View Terms and Conditions in new tab\">Terms and Conditions</a></li>\n<li><a href=\"{AboutLinkUrl}\" target=\"_blank\" aria-label=\"View About HomeServe's services in new tab\">About HomeServe&rsquo;s services</a></li>\n</ul>\n<ul class=\"flat\">\n<li><a href=\"{LookupSoCUrl-Flat}\" target=\"_blank\" aria-label=\"View Insurance product Information Document in new tab\">Insurance Product Information Document</a></li>\n<li><a href=\"{LookupTaCUrl-Flat}\" target=\"_blank\" aria-label=\"View Terms and Conditions in new tab\">Terms and Conditions</a></li>\n<li><a href=\"{AboutLinkUrl}\" target=\"_blank\" aria-label=\"View About HomeServe's services in new tab\">About HomeServe&rsquo;s services</a></li>\n</ul>",
+                        "includestructureddata": false,
+                        "expandedonload": false
+                    }
+                ],
+                "footer": "*Premiums include Insurance Premium Tax at the relevant rate and are subject to factors such as inflation and tax rate changes."
+            },
+            "changeYourExcessHeader": "Change your excess",
+            "changeYourExcessParagraph": "This insurance is also available with a {excessAlternativeExcess} excess for {excessAlternativeMonthlyPrice} a month",
+            "changeYourExcessButtonText": "Find out more",
+            "upsell": null,
+            "upsell2": {
+                "header": null,
+                "items": [
+                    {
+                        "icon": "icon-hs-electricals",
+                        "icon2": null,
+                        "text": "Looking for something extra?",
+                        "buttonText": "Add Electrics for {Upsell1MonthlyPriceDifference} extra a month",
+                        "product": {
+                            "mailcode": "HSIBHR8X",
+                            "areacode": "HS147R8X",
+                            "name": "Plumbing and Electrics",
+                            "shortName": "Plumbing and Electrics",
+                            "fullName": "Plumbing and Electrics for Houses",
+                            "promotionalHeader": "",
+                            "crmId": "2c6bbaf9-7186-459f-b56e-30f730932f40",
+                            "configId": "{B6D6D4BF-3D1C-4DCD-81D6-293A61B3C375}",
+                            "termsAndConditionsUrl": "/-/media/UK/Documents/TermsAndConditions/O/R8X_20240228_tac_v3.pdf",
+                            "ipidUrl": "/-/media/UK/Documents/ViewPolicy/O/R8X_20240708_IPID_v1.pdf",
+                            "aboutHomeServeUrl": "/-/media/UK/Documents/About-HomeServes-Services-Aviva-08112024.pdf",
+                            "coverType": "Domestic",
+                            "partnerName": "HomeServe",
+                            "partnerId": "HS",
+                            "partnerSalesChannel": "HS",
+                            "originator": "HS.com",
+                            "serviceIncluded": false,
+                            "metaDescription": "No-one likes dealing with sudden home emergencies. Protect your home's pipes, drains, sockets and switches with Plumbing and Electrics Cover. Learn more.",
+                            "pageTabTitle": "Plumbing & Electrical Cover | HomeServe",
+                            "content": null,
+                            "price": null,
+                            "excessAlternative": null,
+                            "propertyAlternative": null,
+                            "serviceAlternative": null,
+                            "landlordsAlternative": null,
+                            "landlordAlternativeManual": null,
+                            "productUrl": null,
+                            "categoryBreadcrumbUrl": null,
+                            "directToFunnel": false,
+                            "enableMentionMe": true
+                        }
+                    }
+                ]
+            },
+            "callUsHeader": "Unsure about something?",
+            "callUsBodyText": "No problem! We're always happy to help.",
+            "lookingForSomethingElseHeader": "Looking for something different?",
+            "lookingForSomethingElseText": "We offer a range of options, so you can pick the one that works for you",
+            "lookingForSomethingElseButtonText": "Find the right cover",
+            "productElement": [
+                "Plumbing"
+            ],
+            "caveatWording": null,
+            "checkout": {
+                "iddQuestions": {
+                    "items": [
+                        {
+                            "question": "I want to cover certain plumbing and drainage problems at my property",
+                            "key": "Plumbing"
+                        },
+                        {
+                            "question": "I'm the homeowner, permanently live in this house or bungalow and confirm it's not used for business purposes or covered elsewhere",
+                            "key": "Homeowner"
+                        },
+                        {
+                            "question": "I understand that {excessPriceFormatted} excess is payable upfront every time I claim for a new problem",
+                            "key": "Excess"
+                        }
+                    ],
+                    "iddPlayback": "We understand that you're a homeowner, and that you want cover in the event of certain plumbing and drainage problems at your property"
+                },
+                "faq": {
+                    "header": "Frequently asked questions",
+                    "items": [
+                        {
+                            "question": "What if I need to make a claim?",
+                            "answer": "<p>First, check your policy documents to make sure you're covered, then simply set up and log into your MyHomeServe account and click on 'Make a claim'. Alternatively, you can give us a call on <a href=\"tel:03300247999\" title=\"Click to dial - Mobile only\"><strong>0330 0247 999*</strong></a> - our lines are open 24/7, 365 days a year.</p>\n\n<p><small>*Calls may be recorded for quality control and training purposes. Calls to 03 numbers will cost you no more than 01 or 02 numbers, charges may vary depending on your network provider. Calls to 03 numbers will be part of inclusive minute plans for landlines and mobiles.</small></p>",
+                            "includestructureddata": false
+                        },
+                        {
+                            "question": "When will I be able to make my first claim?",
+                            "answer": "<p>Once your policy is set up, there may be an initial exclusion period during which you will not be able to claim. Please check your policy documents for more details.</p>",
+                            "includestructureddata": false
+                        },
+                        {
+                            "question": "Will my cover automatically renew after the first year?",
+                            "answer": "<p>It's your choice &ndash; you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that we're always there for you. It also saves you time, as you won't need to contact us to renew each year.</p>\n\n<p>But, if this isn't for you, you can quickly and easily opt out of auto renewal when you apply for your cover, or at any time by logging into your <a href=\"/uk/account/login\">online account</a> or <a href=\"/contact-us\">contacting us</a>. If you opt out, you'll need to contact us if you want to renew your cover for another year.</p>\n\n<p>Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with the price of your cover for the next year, so you've got all the information you need to hand.\n\n<p>Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to <a href=\"/contact-us\">get in touch</a> to let us know.</p>",
+                            "includestructureddata": false
+                        },
+                        {
+                            "question": "What happens if I change my mind?",
+                            "answer": "<p>If you're not happy or change your mind within 28 days, you'll receive a full refund. Please see the terms and conditions for more details.</p>",
+                            "includestructureddata": false
+                        },
+                        {
+                            "question": "Who provides this insurance?",
+                            "answer": "<p>This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Aviva Insurance Limited is registered in Scotland, company number 2116 and the registered address is Pitheavlis, Perth, PH2 0NH.</p>\n<p>HomeServe is an insurance intermediary and arranges and administers the policy on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.\n The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a rel=\"noopener noreferrer\" rel=\"noopener noreferrer\" href=\"https://www.fca.org.uk/firms/financial-services-register\" target=\"_blank\">Financial Services Register</a>.</p>",
+                            "includestructureddata": false
+                        }
+                    ],
+                    "footer": ""
+                }
+            }
+        },
+        "price": {
+            "monthlyPrice": "1.00",
+            "monthlyPriceFormatted": "£1",
+            "quarterlyPrice": "3.00",
+            "quarterlyPriceFormatted": "£3",
+            "yearlyPrice": "12.00",
+            "yearlyPriceFormatted": "£12",
+            "year2YearlyPrice": "186.00",
+            "year2YearlyPriceFormatted": "£186",
+            "year2MonthlyPrice": "15.50",
+            "year2MonthlyPriceFormatted": "£15.50",
+            "year2QuarterlyPrice": "46.50",
+            "year2QuarterlyPriceFormatted": "£46.50",
+            "excessPrice": "30.00",
+            "excessPriceFormatted": "£30",
+            "paymentMonthly": true,
+            "paymentQuarterly": true,
+            "paymentAnnually": false,
+            "defaultPaymentMethod": "monthly",
+            "year2YearlyFlatPrice": "157.80",
+            "year2YearlyFlatPriceFormatted": "£157.80",
+            "year2MonthlyFlatPrice": "13.15",
+            "year2MonthlyFlatPriceFormatted": "£13.15"
+        },
+        "excessAlternative": null,
+        "propertyAlternative": {
+            "mailcode": "HSIPHQ8DA",
+            "areacode": "HS147Q8D",
+            "name": "Plumbing and Drainage Plus",
+            "shortName": "Plumbing and Drainage Plus",
+            "fullName": "Plumbing and Drainage Plus for Flats",
+            "promotionalHeader": "",
+            "crmId": "595c3921-daf0-4b0d-ba46-99f498fe7d2d",
+            "configId": "{7EBBD5DE-36A6-48B4-9B76-195F02B438D3}",
+            "termsAndConditionsUrl": "/-/media/UK/Documents/TermsAndConditions/O/Q8D_20240228_tac_v3.pdf",
+            "ipidUrl": "/-/media/UK/Documents/ViewPolicy/O/Q8D_20240708_IPID_v1.pdf",
+            "aboutHomeServeUrl": "/-/media/UK/Documents/About-HomeServes-Services-Aviva-08112024.pdf",
+            "coverType": "Domestic",
+            "partnerName": "HomeServe",
+            "partnerId": "HS",
+            "partnerSalesChannel": "HS",
+            "originator": "HS.com",
+            "serviceIncluded": false,
+            "metaDescription": "Less stress, less cost. Cover your home for blocked sinks, drains, toilets, water leaks & leaking overflow pipes. Discover Plumbing and Drainage Plus Cover.",
+            "pageTabTitle": "Plumbing & Drainage Cover | HomeServe",
+            "content": null,
+            "price": null,
+            "excessAlternative": null,
+            "propertyAlternative": null,
+            "serviceAlternative": null,
+            "landlordsAlternative": null,
+            "landlordAlternativeManual": null,
+            "productUrl": null,
+            "categoryBreadcrumbUrl": null,
+            "directToFunnel": false,
+            "enableMentionMe": false
+        },
+        "serviceAlternative": null,
+        "landlordsAlternative": null,
+        "landlordAlternativeManual": "/insurance/landlords-plumbing-drainage",
+        "productUrl": "/insurance/plumbing-drainage-cover",
+        "categoryBreadcrumbUrl": "/insurance-cover/plumbing-and-drainage-comparison",
+        "directToFunnel": false,
+        "enableMentionMe": false
+    },
+    "Code": 302,
+    "Message": "HSIPHQ8CA found"
+}

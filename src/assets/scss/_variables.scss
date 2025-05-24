@@ -1,0 +1,11 @@
+$red: #e62419;
+
+$primary: $red !default;
+$secondary: #fff !default;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+// scss-docs-end theme-colors-map

@@ -1,0 +1,142 @@
+[
+  {
+    "productCategory": "Plumbing",
+    "id": 1,
+    "title": "Plumbing and Drainage Plus",
+    "monthlyCost": 1,
+    "excessCost": 30,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe"],
+    "exclusions": ["Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "plumbing-drainage-plus-cover"
+  },
+  {
+    "productCategory": "Plumbing",
+    "id": 2,
+    "title": "Plumbing and Electrics",
+    "monthlyCost": 4,
+    "excessCost": 30,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your home's electrics"],
+    "exclusions": ["Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "plumbing-electrics-cover"
+  },
+  {
+    "productCategory": "Plumbing",
+    "id": 3,
+    "title": "Heating and Plumbing with Service",
+    "monthlyCost": 15.5,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating"],
+    "exclusions": ["Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "heating-plumbing-cover-service"
+  },
+  {
+    "productCategory": "Plumbing",
+    "id": 4,
+    "title": "Heating, Plumbing and Electrics with Service",
+    "monthlyCost": 17,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Your home's electrics"],
+    "exclusions": ["Security and roofing issues", "Pest infestations"],
+    "policyLink": "heating-plumbing-electrics-cover-service"
+  },
+  {
+    "productCategory": "Plumbing",
+    "id": 5,
+    "title": "Heating, Plumbing and Electrics Plus with Service",
+    "monthlyCost": 19,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "exclusions": [],
+    "policyLink": "heating-plumbing-electrics-plus-cover-service"
+  },
+  {
+    "productCategory": "Heating",
+    "id": 6,
+    "title": "Gas Boiler",
+    "monthlyCost": 10,
+    "excessCost": 100,
+    "inclusions": ["Your gas boiler", "Your gas supply pipe"],
+    "exclusions": ["Your gas central heating", "Plumbing and drainage problems", "Your water supply pipe", "Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "gas-boiler-cover-service"
+  },
+  {
+    "productCategory": "Heating",
+    "id": 7,
+    "title": "Gas Boiler and Central Heating with Service",
+    "monthlyCost": 14.5,
+    "excessCost": 60,
+    "inclusions": ["Your gas boiler", "Your gas supply pipe", "Your gas central heating"],
+    "exclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "gas-boiler-and-central-heating-cover-service"
+  },
+  {
+    "productCategory": "Heating",
+    "id": 8,
+    "title": "Heating and Plumbing with Service",
+    "monthlyCost": 15.5,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating"],
+    "exclusions": ["Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "heating-plumbing-cover-service"
+  },
+  {
+    "productCategory": "Heating",
+    "id": 9,
+    "title": "Heating, Plumbing and Electrics with Service",
+    "monthlyCost": 17,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Your home's electrics"],
+    "exclusions": ["Security and roofing issues", "Pest infestations"],
+    "policyLink": "heating-plumbing-electrics-cover-service"
+  },
+  {
+    "productCategory": "Heating",
+    "id": 10,
+    "title": "Heating, Plumbing and Electrics Plus with Service",
+    "monthlyCost": 19,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "exclusions": [],
+    "policyLink": "heating-plumbing-electrics-plus-cover-service"
+  },
+  {
+    "productCategory": "Electrics",
+    "id": 11,
+    "title": "Electrics",
+    "monthlyCost": 3,
+    "excessCost": 30,
+    "inclusions": ["Your home's electrics"],
+    "exclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "electrics-cover"
+  },
+  {
+    "productCategory": "Electrics",
+    "id": 12,
+    "title": "Plumbing and Electrics",
+    "monthlyCost": 4,
+    "excessCost": 30,
+    "inclusions": ["Your home's electrics", "Plumbing and drainage problems", "Your water supply pipe"],
+    "exclusions": ["Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Security and roofing issues", "Pest infestations"],
+    "policyLink": "plumbing-electrics-cover"
+  },
+  {
+    "productCategory": "Electrics",
+    "id": 13,
+    "title": "Heating, Plumbing and Electrics with Service",
+    "monthlyCost": 17,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Your home's electrics"],
+    "exclusions": ["Security and roofing issues", "Pest infestations"],
+    "policyLink": "heating-plumbing-electrics-cover-service"
+  },
+  {
+    "productCategory": "Electrics",
+    "id": 14,
+    "title": "Heating, Plumbing and Electrics Plus with Service",
+    "monthlyCost": 19,
+    "excessCost": 60,
+    "inclusions": ["Plumbing and drainage problems", "Your water supply pipe", "Your gas boiler", "Your gas supply pipe", "Your gas central heating", "Your home's electrics", "Security and roofing issues", "Pest infestations"],
+    "exclusions": [],
+    "policyLink": "heating-plumbing-electrics-plus-cover-service"
+  }
+]

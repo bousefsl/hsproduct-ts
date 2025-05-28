@@ -1,128 +1,130 @@
-[
-  {
-    "productCategory": "Plumbing",
-    "id": 1,
-    "title": "Landlord's Plumbing and Drainage Plus",
-    "monthlyCost": 1,
-    "inclusions": ["Plumbing and drainage problems", "The water supply pipe"],
-    "exclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-plumbing-drainage-plus-cover"
-  },
-  {
-    "productCategory": "Plumbing",
-    "id": 2,
-    "title": "Landlord's Plumbing and Electrics",
-    "monthlyCost": 6,
-    "inclusions": ["Your property's electrics", "Plumbing and drainage problems", "The water supply pipe"],
-    "exclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-plumbing-electrics-cover"
-  },
-  {
-    "productCategory": "Plumbing",
-    "id": 3,
-    "title": "Landlord's Heating and Plumbing",
-    "monthlyCost": 19,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe"],
-    "exclusions": ["Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-heating-plumbing-cover-service"
-  },
-  {
-    "productCategory": "Plumbing",
-    "id": 4,
-    "title": "Landlord's Heating, Plumbing and Electrics",
-    "monthlyCost": 22,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics"],
-    "exclusions": ["Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-heating-plumbing-electrics-cover-service"
-  },
-  {
-    "productCategory": "Plumbing",
-    "id": 5,
-    "title": "Landlord's Heating, Plumbing and Electrics Plus",
-    "monthlyCost": 24,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "exclusions": [],
-    "policyLink": "landlords-heating-plumbing-electrics-plus-cover-service"
-  },
-  {
-    "productCategory": "Heating",
-    "id": 6,
-    "title": "Landlord's Gas Boiler",
-    "monthlyCost": 10,
-    "inclusions": ["The gas boiler", "The gas supply pipe"],
-    "exclusions": ["The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-gas-boiler-cover-service"
-  },
-  {
-    "productCategory": "Heating",
-    "id": 7,
-    "title": "Landlord's Gas Boiler and Central Heating",
-    "monthlyCost": 18,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating"],
-    "exclusions": ["Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-gas-boiler-and-central-heating-cover-service"
-  },
-  {
-    "productCategory": "Heating",
-    "id": 8,
-    "title": "Landlord's Heating and Plumbing",
-    "monthlyCost": 19,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe"],
-    "exclusions": ["Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-heating-plumbing-cover-service"
-  },
-  {
-    "productCategory": "Heating",
-    "id": 9,
-    "title": "Landlord's Heating, Plumbing and Electrics",
-    "monthlyCost": 22,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics"],
-    "exclusions": ["Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-heating-plumbing-electrics-cover-service"
-  },
-  {
-    "productCategory": "Heating",
-    "id": 10,
-    "title": "Landlord's Heating, Plumbing and Electrics Plus",
-    "monthlyCost": 24,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "exclusions": [],
-    "policyLink": "landlords-heating-plumbing-electrics-plus-cover-service"
-  },
-  {
-    "productCategory": "Electrics",
-    "id": 11,
-    "title": "Landlord's Electrics",
-    "monthlyCost": 5,
-    "inclusions": ["Your property's electrics"],
-    "exclusions": ["Plumbing and drainage problems", "The water supply pipe", "The gas boiler", "The gas supply pipe", "The gas central heating", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-electrics-cover"
-  },
-  {
-    "productCategory": "Electrics",
-    "id": 12,
-    "title": "Landlord's Plumbing and Electrics",
-    "monthlyCost": 6,
-    "inclusions": ["Your property's electrics", "Plumbing and drainage problems", "The water supply pipe"],
-    "exclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-plumbing-electrics-cover"
-  },
-  {
-    "productCategory": "Electrics",
-    "id": 13,
-    "title": "Landlord's Heating, Plumbing and Electrics",
-    "monthlyCost": 22,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics"],
-    "exclusions": ["Security and roofing issues", "Pest infestations"],
-    "policyLink": "landlords-heating-plumbing-electrics-cover-service"
-  },
-  {
-    "productCategory": "Electrics",
-    "id": 14,
-    "title": "Landlord's Heating, Plumbing and Electrics Plus",
-    "monthlyCost": 24,
-    "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
-    "exclusions": [],
-    "policyLink": "landlords-heating-plumbing-electrics-plus-cover-service"
-  }
-]
+{
+  "landlordproducts": [
+    {
+      "productCategory": "Plumbing",
+      "id": 1,
+      "title": "Landlord's Plumbing and Drainage Plus",
+      "monthlyCost": 1,
+      "inclusions": ["Plumbing and drainage problems", "The water supply pipe"],
+      "exclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-plumbing-drainage-plus-cover"
+    },
+    {
+      "productCategory": "Plumbing",
+      "id": 2,
+      "title": "Landlord's Plumbing and Electrics",
+      "monthlyCost": 6,
+      "inclusions": ["Your property's electrics", "Plumbing and drainage problems", "The water supply pipe"],
+      "exclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-plumbing-electrics-cover"
+    },
+    {
+      "productCategory": "Plumbing",
+      "id": 3,
+      "title": "Landlord's Heating and Plumbing",
+      "monthlyCost": 19,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe"],
+      "exclusions": ["Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-heating-plumbing-cover-service"
+    },
+    {
+      "productCategory": "Plumbing",
+      "id": 4,
+      "title": "Landlord's Heating, Plumbing and Electrics",
+      "monthlyCost": 22,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics"],
+      "exclusions": ["Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-heating-plumbing-electrics-cover-service"
+    },
+    {
+      "productCategory": "Plumbing",
+      "id": 5,
+      "title": "Landlord's Heating, Plumbing and Electrics Plus",
+      "monthlyCost": 24,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "exclusions": [],
+      "policyLink": "landlords-heating-plumbing-electrics-plus-cover-service"
+    },
+    {
+      "productCategory": "Heating",
+      "id": 6,
+      "title": "Landlord's Gas Boiler",
+      "monthlyCost": 10,
+      "inclusions": ["The gas boiler", "The gas supply pipe"],
+      "exclusions": ["The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-gas-boiler-cover-service"
+    },
+    {
+      "productCategory": "Heating",
+      "id": 7,
+      "title": "Landlord's Gas Boiler and Central Heating",
+      "monthlyCost": 18,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating"],
+      "exclusions": ["Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-gas-boiler-and-central-heating-cover-service"
+    },
+    {
+      "productCategory": "Heating",
+      "id": 8,
+      "title": "Landlord's Heating and Plumbing",
+      "monthlyCost": 19,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe"],
+      "exclusions": ["Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-heating-plumbing-cover-service"
+    },
+    {
+      "productCategory": "Heating",
+      "id": 9,
+      "title": "Landlord's Heating, Plumbing and Electrics",
+      "monthlyCost": 22,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics"],
+      "exclusions": ["Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-heating-plumbing-electrics-cover-service"
+    },
+    {
+      "productCategory": "Heating",
+      "id": 10,
+      "title": "Landlord's Heating, Plumbing and Electrics Plus",
+      "monthlyCost": 24,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "exclusions": [],
+      "policyLink": "landlords-heating-plumbing-electrics-plus-cover-service"
+    },
+    {
+      "productCategory": "Electrics",
+      "id": 11,
+      "title": "Landlord's Electrics",
+      "monthlyCost": 5,
+      "inclusions": ["Your property's electrics"],
+      "exclusions": ["Plumbing and drainage problems", "The water supply pipe", "The gas boiler", "The gas supply pipe", "The gas central heating", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-electrics-cover"
+    },
+    {
+      "productCategory": "Electrics",
+      "id": 12,
+      "title": "Landlord's Plumbing and Electrics",
+      "monthlyCost": 6,
+      "inclusions": ["Your property's electrics", "Plumbing and drainage problems", "The water supply pipe"],
+      "exclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-plumbing-electrics-cover"
+    },
+    {
+      "productCategory": "Electrics",
+      "id": 13,
+      "title": "Landlord's Heating, Plumbing and Electrics",
+      "monthlyCost": 22,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics"],
+      "exclusions": ["Security and roofing issues", "Pest infestations"],
+      "policyLink": "landlords-heating-plumbing-electrics-cover-service"
+    },
+    {
+      "productCategory": "Electrics",
+      "id": 14,
+      "title": "Landlord's Heating, Plumbing and Electrics Plus",
+      "monthlyCost": 24,
+      "inclusions": ["The gas boiler", "The gas supply pipe", "The gas central heating", "Plumbing and drainage problems", "The water supply pipe", "Your property's electrics", "Security and roofing issues", "Pest infestations"],
+      "exclusions": [],
+      "policyLink": "landlords-heating-plumbing-electrics-plus-cover-service"
+    }
+  ]
+}

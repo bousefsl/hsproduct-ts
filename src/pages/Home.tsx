@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <h1 className="text-secondary bg-primary">Homepage</h1>
-      <Link to={`comparison?query=&category=plumbing`}>Comparison</Link>
+      <Link to={`comparison?query=&productCategory=plumbing`}>Comparison</Link>
     </>
   )
 }

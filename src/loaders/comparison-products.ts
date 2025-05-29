@@ -1,9 +1,21 @@
+//Types
+import type { CompProductProps, LandlordCompProductProps } from "../types"
+//Loaders
 import { baseApi, baseLandlordApi } from "./base"
 
-export function comparisonProductsLoader() {
-  return baseApi.get("products").then((res) => res.data)
+type myParams = {
+  productCategory: string | null
+}
+type requestProps = {
+  params: myParams
+  signal: AbortSignal | undefined
 }
 
-export function landlordComparisonProductsLoader() {
-  return baseLandlordApi.get("landlordproducts").then((res) => res.data)
+export function comparisonProductsLoader(options: requestProps): Promise<CompProductProps> {
+  //console.log(options)
+  return baseApi.get("products", options).then((res) => res.data)
+}
+
+export function landlordComparisonProductsLoader(options: requestProps): Promise<LandlordCompProductProps> {
+  return baseLandlordApi.get("landlordproducts", options).then((res) => res.data)
 }

@@ -19,3 +19,34 @@ export type LandlordCompProductProps = {
   exclusions: string[]
   policyLink: string
 }
+
+//Product Page
+export type ProductProps = {
+  policyLink: string
+  productCategory: string[]
+  id: number
+  title: string
+  productParagraph: string[]
+  monthlyCost: number
+  annualCost: number
+  excessCost: number
+  hasOffer: boolean
+  hasOfferContent: string
+  secondYearMonthlyCost: number
+  secondYearAnnualCost: number
+  insuranceFor: string[]
+  insuranceNotFor: string[]
+  insuranceNotForLinkRequired: boolean
+  insuranceNotForLink: string
+  whatsCovered: string[]
+  whatsNotCovered: string[]
+  eligibilityOwner: string
+  eligibilityOwnerPropertyCover: string
+  FAQs: faqProps[]
+}
+
+type faqProps = {
+  header: string
+  response: string[]
+  bulletresponse: string[]
+}

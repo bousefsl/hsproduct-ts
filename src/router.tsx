@@ -4,10 +4,10 @@ import { createBrowserRouter } from "react-router"
 import RootLayout from "./layouts/RootLayout"
 //Pages
 import Home from "./pages/Home"
-import Product from "./pages/Product"
 //Pages/Loaders
 import { comparisonListRoute } from "./pages/Comparison"
 import { landlordComparisonRoute } from "./pages/LandlordComparison"
+import { productsListRoute } from "./pages/Product"
 
 export const router = createBrowserRouter([
   {
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "comparison", ...comparisonListRoute },
       { path: "landlord-comparison", ...landlordComparisonRoute },
-      { path: "product", element: <Product /> },
+      { path: "products/:policyLink", ...productsListRoute },
     ],
   },
 ])

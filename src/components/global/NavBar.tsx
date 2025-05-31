@@ -15,7 +15,7 @@ export default function NavBar() {
           <NavLink to="/landlord-comparison">Landlord Comparison</NavLink>
         </li>
         <li>
-          <NavLink to="/product">Product</NavLink>
+          <NavLink to="/products">Product</NavLink>
         </li>
       </ul>
     </nav>

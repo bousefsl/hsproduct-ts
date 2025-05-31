@@ -37,7 +37,7 @@ export default function LandlordComparisonCard({ title, monthlyCost, inclusions,
             )}
           </div>
           <div className="text-center">
-            <Link to={policyLink} className="btn btn-primary">
+            <Link to={`../products/${policyLink}`} className="btn btn-primary">
               View policy details
             </Link>
           </div>

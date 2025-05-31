@@ -1,170 +1,257 @@
 {
-  "productpages": [
-    {
-      "policyLink": "plumbing-drainage-plus-cover",
-      "productCategory": ["Plumbing"],
-      "id": 1,
-      "title": "Plumbing and Drainage Plus",
-      "monthlyCost": 1,
-      "excessCost": 30,
-      "hasOffer": false,
-      "hasOfferContent": "",
-      "secondYearMonthlyCost": 15.86,
-      "secondYearAnnualCost": 190.32,
-      "insuranceFor": ["Homeowners", "People who only want cover for their home's plumbing and drainage"],
-      "insuranceNotFor": ["Landlords"],
-      "insuranceNotForLinkRequired": false,
-      "insuranceNotForLink": "",
-      "whatsCovered": ["Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps"],
-      "whatsNotCovered": ["A boiler breakdown that leaves you without heating or hot water", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers"],
-      "eligibilityOwner": "homeowners",
-      "eligibilityOwnerPropertyCover": "flats, apartments",
-      "FAQs": [
-        {
-          "header": "Am I eligible for this insurance?",
-          "response": ["This insurance is only for homeowners.", "It doesn't include cover for flats, apartments, mobile homes or park homes. Business premises and council and housing association properties cannot be covered."],
-          "bulletresponse": []
-        },
-        {
-          "header": "What information will I need to buy this insurance?",
-          "response": ["To make buying your cover as simple as possible, please make sure you have the following information to hand:"],
-          "bulletresponse": ["Details of the house, bungalow, flat or apartment you want to cover", "A valid email address", "The bank details of whoever will pay for the insurance"]
-        },
-        {
-          "header": "What happens if I change my mind?",
-          "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
-          "bulletresponse": []
-        },
-        {
-          "header": "When will I be able to make my first claim?",
-          "response": ["Once your policy is set up, there'll be an initial 28-day exclusion period during which you will not be able to claim.", "After that, you can make an unlimited number of claims a year."],
-          "bulletresponse": []
-        },
-        {
-          "header": "When and how will I have to pay my excess?",
-          "response": [],
-          "bulletresponse": ["Each separate problem registered will require an excess payment of £30 per claim to be made.", "Unrelated problems which are not associated with each other will require a separate excess payment.", "Where physical investigation work is undertaken, and the problem is not resolved, the excess payment will NOT be refunded.", "The excess payment is taken using a credit or debit card. If you book over the phone, your card details must be input using your telephone keypad.", "We only accept payment using the following cards: MasterCard, Visa and Visa Debit."]
-        },
-        {
-          "header": "What if I need a repair that isn't covered by my insurance?",
-          "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
-          "bulletresponse": []
-        },
-        {
-          "header": "Will my local water company help if there's a problem with my supply pipe?",
-          "response": ["Your local water company may provide assistance if your external underground water supply pipe is leaking. Please contact them directly for details."],
-          "bulletresponse": []
-        },
-        {
-          "header": "What happens to the cost of my cover at the end of my first year?",
-          "response": ["Once your first-year introductory offer ends, the cost of cover will increase. So, if you choose to continue into the second year and haven't made a claim, you can expect to pay £15.86 a month*, which is £190.32 for the year."],
-          "bulletresponse": []
-        },
-        {
-          "header": "Will I have to pay any extra fees or charges?",
-          "response": ["No. You only have to pay your insurance premium and - in the event you make a claim - your excess.", "Premiums include Insurance Premium Tax at the relevant rate and are subject to factors such as inflation and tax rate changes."],
-          "bulletresponse": []
-        },
-        {
-          "header": "Who provides this insurance?",
-          "response": [
-            "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-            "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-            "Pitheavlis, Perth, Scotland, PH2 0NH.",
-            "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-            "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
-          ],
-          "bulletresponse": []
-        },
-        {
-          "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
-          "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-          "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
-        }
-      ]
-    },
-    {
-      "policyLink": "plumbing-electrics-cover",
-      "productCategory": ["Plumbing"],
-      "id": 2,
-      "title": "Plumbing and Electrics",
-      "monthlyCost": 4,
-      "excessCost": 30,
-      "hasOffer": false,
-      "hasOfferContent": "",
-      "secondYearMonthlyCost": 24.39,
-      "secondYearAnnualCost": 292.68,
-      "insuranceFor": ["Homeowners", "People who only want cover for their home's plumbing and electrics"],
-      "insuranceNotFor": ["Landlords"],
-      "insuranceNotForLinkRequired": false,
-      "insuranceNotForLink": "",
-      "whatsCovered": ["Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Failed wiring", "A breakdown of your fuse box", "Broken power sockets or switches", "Faults on the electric shower unit"],
-      "whatsNotCovered": ["A boiler breakdown that leaves you without heating or hot water", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Household appliances"],
-      "eligibilityOwner": "homeowners",
-      "eligibilityOwnerPropertyCover": "flats, apartments",
-      "FAQs": [
-        {
-          "header": "Am I eligible for this insurance?",
-          "response": ["This insurance is only for homeowners.", "It doesn't include cover for flats, apartments, mobile homes or park homes. Business premises and council and housing association properties cannot be covered."],
-          "bulletresponse": []
-        },
-        {
-          "header": "What information will I need to buy this insurance?",
-          "response": ["To make buying your cover as simple as possible, please make sure you have the following information to hand:"],
-          "bulletresponse": ["Details of the house, bungalow, flat or apartment you want to cover", "A valid email address", "The bank details of whoever will pay for the insurance"]
-        },
-        {
-          "header": "What happens if I change my mind?",
-          "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
-          "bulletresponse": []
-        },
-        {
-          "header": "When will I be able to make my first claim?",
-          "response": ["Once your policy is set up, there'll be an initial 28-day exclusion period during which you will not be able to claim.", "After that, you can make an unlimited number of claims a year."],
-          "bulletresponse": []
-        },
-        {
-          "header": "When and how will I have to pay my excess?",
-          "response": [],
-          "bulletresponse": ["Each separate problem registered will require an excess payment of £30 per claim to be made.", "Unrelated problems which are not associated with each other will require a separate excess payment.", "Where physical investigation work is undertaken, and the problem is not resolved, the excess payment will NOT be refunded.", "The excess payment is taken using a credit or debit card. If you book over the phone, your card details must be input using your telephone keypad.", "We only accept payment using the following cards: MasterCard, Visa and Visa Debit."]
-        },
-        {
-          "header": "What if I need a repair that isn't covered by my insurance?",
-          "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
-          "bulletresponse": []
-        },
-        {
-          "header": "Will my local water company help if there's a problem with my supply pipe?",
-          "response": ["Your local water company may provide assistance if your external underground water supply pipe is leaking. Please contact them directly for details."],
-          "bulletresponse": []
-        },
-        {
-          "header": "What happens to the cost of my cover at the end of my first year?",
-          "response": ["Once your first-year introductory offer ends, the cost of cover will increase. So, if you choose to continue into the second year and haven't made a claim, you can expect to pay £15.86 a month*, which is £190.32 for the year."],
-          "bulletresponse": []
-        },
-        {
-          "header": "Will I have to pay any extra fees or charges?",
-          "response": ["No. You only have to pay your insurance premium and - in the event you make a claim - your excess.", "Premiums include Insurance Premium Tax at the relevant rate and are subject to factors such as inflation and tax rate changes."],
-          "bulletresponse": []
-        },
-        {
-          "header": "Who provides this insurance?",
-          "response": [
-            "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-            "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-            "Pitheavlis, Perth, Scotland, PH2 0NH.",
-            "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-            "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
-          ],
-          "bulletresponse": []
-        },
-        {
-          "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
-          "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-          "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
-        }
-      ]
-    }
-  ]
+  "plumbing-drainage-plus-cover": {
+    "policyLink": "plumbing-drainage-plus-cover",
+    "productCategory": ["Plumbing"],
+    "id": 1,
+    "title": "Plumbing and Drainage Plus",
+    "productParagraph": ["Cover your home for blocked sinks, drains and toilets, water leaks and leaking overflow pipes."],
+    "monthlyCost": 1,
+    "annualCost": 12,
+    "excessCost": 30,
+    "hasOffer": false,
+    "hasOfferContent": "",
+    "secondYearMonthlyCost": 15.86,
+    "secondYearAnnualCost": 190.32,
+    "insuranceFor": ["Homeowners", "People who only want cover for their home's plumbing and drainage"],
+    "insuranceNotFor": ["Landlords"],
+    "insuranceNotForLinkRequired": false,
+    "insuranceNotForLink": "",
+    "whatsCovered": ["Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps"],
+    "whatsNotCovered": ["A boiler breakdown that leaves you without heating or hot water", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers"],
+    "eligibilityOwner": "homeowners",
+    "eligibilityOwnerPropertyCover": "flats, apartments",
+    "FAQs": [
+      {
+        "header": "Am I eligible for this insurance?",
+        "response": ["This insurance is only for homeowners.", "It doesn't include cover for flats, apartments, mobile homes or park homes. Business premises and council and housing association properties cannot be covered."],
+        "bulletresponse": []
+      },
+      {
+        "header": "What information will I need to buy this insurance?",
+        "response": ["To make buying your cover as simple as possible, please make sure you have the following information to hand:"],
+        "bulletresponse": ["Details of the house, bungalow, flat or apartment you want to cover", "A valid email address", "The bank details of whoever will pay for the insurance"]
+      },
+      {
+        "header": "What happens if I change my mind?",
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "bulletresponse": []
+      },
+      {
+        "header": "When will I be able to make my first claim?",
+        "response": ["Once your policy is set up, there'll be an initial 28-day exclusion period during which you will not be able to claim.", "After that, you can make an unlimited number of claims a year."],
+        "bulletresponse": []
+      },
+      {
+        "header": "When and how will I have to pay my excess?",
+        "response": [],
+        "bulletresponse": ["Each separate problem registered will require an excess payment of £30 per claim to be made.", "Unrelated problems which are not associated with each other will require a separate excess payment.", "Where physical investigation work is undertaken, and the problem is not resolved, the excess payment will NOT be refunded.", "The excess payment is taken using a credit or debit card. If you book over the phone, your card details must be input using your telephone keypad.", "We only accept payment using the following cards: MasterCard, Visa and Visa Debit."]
+      },
+      {
+        "header": "What if I need a repair that isn't covered by my insurance?",
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Will my local water company help if there's a problem with my supply pipe?",
+        "response": ["Your local water company may provide assistance if your external underground water supply pipe is leaking. Please contact them directly for details."],
+        "bulletresponse": []
+      },
+      {
+        "header": "What happens to the cost of my cover at the end of my first year?",
+        "response": ["Once your first-year introductory offer ends, the cost of cover will increase. So, if you choose to continue into the second year and haven't made a claim, you can expect to pay £15.86 a month*, which is £190.32 for the year."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Will I have to pay any extra fees or charges?",
+        "response": ["No. You only have to pay your insurance premium and - in the event you make a claim - your excess.", "Premiums include Insurance Premium Tax at the relevant rate and are subject to factors such as inflation and tax rate changes."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Who provides this insurance?",
+        "response": [
+          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
+          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
+          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+        ],
+        "bulletresponse": []
+      },
+      {
+        "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
+        "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
+        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+      }
+    ]
+  },
+  "plumbing-electrics-cover": {
+    "policyLink": "plumbing-electrics-cover",
+    "productCategory": ["Plumbing"],
+    "id": 2,
+    "title": "Plumbing and Electrics",
+    "productParagraph": ["Cover your home's pipes, drains, sockets and switches with our plumbing and electrics cover."],
+    "monthlyCost": 4,
+    "annualCost": 48,
+    "excessCost": 30,
+    "hasOffer": false,
+    "hasOfferContent": "",
+    "secondYearMonthlyCost": 24.39,
+    "secondYearAnnualCost": 292.68,
+    "insuranceFor": ["Homeowners", "People who only want cover for their home's plumbing and electrics"],
+    "insuranceNotFor": ["Landlords"],
+    "insuranceNotForLinkRequired": false,
+    "insuranceNotForLink": "",
+    "whatsCovered": ["Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Failed wiring", "A breakdown of your fuse box", "Broken power sockets or switches", "Faults on the electric shower unit"],
+    "whatsNotCovered": ["A boiler breakdown that leaves you without heating or hot water", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Household appliances"],
+    "eligibilityOwner": "homeowners",
+    "eligibilityOwnerPropertyCover": "flats, apartments",
+    "FAQs": [
+      {
+        "header": "Am I eligible for this insurance?",
+        "response": ["This insurance is only for homeowners.", "It doesn't include cover for flats, apartments, mobile homes or park homes. Business premises and council and housing association properties cannot be covered."],
+        "bulletresponse": []
+      },
+      {
+        "header": "What information will I need to buy this insurance?",
+        "response": ["To make buying your cover as simple as possible, please make sure you have the following information to hand:"],
+        "bulletresponse": ["Details of the house, bungalow, flat or apartment you want to cover", "A valid email address", "The bank details of whoever will pay for the insurance"]
+      },
+      {
+        "header": "What happens if I change my mind?",
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "bulletresponse": []
+      },
+      {
+        "header": "When will I be able to make my first claim?",
+        "response": ["Once your policy is set up, there'll be an initial 28-day exclusion period during which you will not be able to claim.", "After that, you can make an unlimited number of claims a year."],
+        "bulletresponse": []
+      },
+      {
+        "header": "When and how will I have to pay my excess?",
+        "response": [],
+        "bulletresponse": ["Each separate problem registered will require an excess payment of £30 per claim to be made.", "Unrelated problems which are not associated with each other will require a separate excess payment.", "Where physical investigation work is undertaken, and the problem is not resolved, the excess payment will NOT be refunded.", "The excess payment is taken using a credit or debit card. If you book over the phone, your card details must be input using your telephone keypad.", "We only accept payment using the following cards: MasterCard, Visa and Visa Debit."]
+      },
+      {
+        "header": "What if I need a repair that isn't covered by my insurance?",
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Will my local water company help if there's a problem with my supply pipe?",
+        "response": ["Your local water company may provide assistance if your external underground water supply pipe is leaking. Please contact them directly for details."],
+        "bulletresponse": []
+      },
+      {
+        "header": "What happens to the cost of my cover at the end of my first year?",
+        "response": ["Once your first-year introductory offer ends, the cost of cover will increase. So, if you choose to continue into the second year and haven't made a claim, you can expect to pay £15.86 a month*, which is £190.32 for the year."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Will I have to pay any extra fees or charges?",
+        "response": ["No. You only have to pay your insurance premium and - in the event you make a claim - your excess.", "Premiums include Insurance Premium Tax at the relevant rate and are subject to factors such as inflation and tax rate changes."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Who provides this insurance?",
+        "response": [
+          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
+          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
+          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+        ],
+        "bulletresponse": []
+      },
+      {
+        "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
+        "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
+        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+      }
+    ]
+  },
+  "heating-plumbing-cover-service": {
+    "policyLink": "heating-plumbing-cover-service",
+    "productCategory": ["Plumbing"],
+    "id": 3,
+    "title": "Heating and Plumbing with Service",
+    "productParagraph": ["Get peace of mind with cover for central heating breakdowns and plumbing problems. You'll also get a FREE boiler service in your first year."],
+    "monthlyCost": 15.5,
+    "annualCost": 186,
+    "excessCost": 60,
+    "hasOffer": false,
+    "hasOfferContent": "",
+    "secondYearMonthlyCost": 47.73,
+    "secondYearAnnualCost": 572.76,
+    "insuranceFor": ["Homeowners whose properties are heated with natural gas", "People who want cover for their home's gas boiler, central heating and plumbing"],
+    "insuranceNotFor": ["Landlords"],
+    "insuranceNotForLinkRequired": false,
+    "insuranceNotForLink": "",
+    "whatsCovered": ["No heating or hot water due to a boiler breakdown", "Repairing the boiler controls and components", "Repairing a leak within your central heating system", "A leaking gas supply pipe", "A gas boiler service", "Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Replacement of your boiler where it is beyond repair"],
+    "whatsNotCovered": ["The gas pipe leading into your meter", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Installation costs (parts, labour and VAT) where the boiler is aged 7 years or over"],
+    "eligibilityOwner": "homeowners",
+    "eligibilityOwnerPropertyCover": "flats, apartments",
+    "FAQs": [
+      {
+        "header": "Am I eligible for this insurance?",
+        "response": ["This insurance is only for homeowners.", "It doesn't include cover for flats, apartments, mobile homes or park homes. Business premises and council and housing association properties cannot be covered.", "The boiler(s) at your home must have a power input of less than 70kW and be fired by natural gas (not LPG, electricity or oil), and gas supply pipes must be 35mm or less in diameter."],
+        "bulletresponse": []
+      },
+      {
+        "header": "What information will I need to buy this insurance?",
+        "response": ["To make buying your cover as simple as possible, please make sure you have the following information to hand:"],
+        "bulletresponse": ["Details of the house, bungalow, flat or apartment you want to cover", "Details of how it is heated (for example, the make of your boiler)", "A valid email address", "The bank details of whoever will pay for the insurance"]
+      },
+      {
+        "header": "What happens if I change my mind?",
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "bulletresponse": []
+      },
+      {
+        "header": "When and how will I have to pay my excess?",
+        "response": [],
+        "bulletresponse": ["Each separate problem registered will require an excess payment of £30 per claim to be made.", "Unrelated problems which are not associated with each other will require a separate excess payment.", "Where physical investigation work is undertaken, and the problem is not resolved, the excess payment will NOT be refunded.", "The excess payment is taken using a credit or debit card. If you book over the phone, your card details must be input using your telephone keypad.", "We only accept payment using the following cards: MasterCard, Visa and Visa Debit."]
+      },
+      {
+        "header": "When will I be able to make my first claim?",
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "bulletresponse": []
+      },
+      {
+        "header": "What if I need a repair that isn't covered by my insurance?",
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Will my local water company help if there's a problem with my supply pipe?",
+        "response": ["Your local water company may provide assistance if your external underground water supply pipe is leaking. Please contact them directly for details."],
+        "bulletresponse": []
+      },
+      {
+        "header": "What happens to the cost of my cover at the end of my first year?",
+        "response": ["Once your first-year introductory offer ends, the cost of cover will increase. So, if you choose to continue into the second year and haven't made a claim, you can expect to pay £15.86 a month*, which is £190.32 for the year."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Will I have to pay any extra fees or charges?",
+        "response": ["No. You only have to pay your insurance premium and - in the event you make a claim - your excess.", "Premiums include Insurance Premium Tax at the relevant rate and are subject to factors such as inflation and tax rate changes."],
+        "bulletresponse": []
+      },
+      {
+        "header": "Who provides this insurance?",
+        "response": [
+          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
+          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
+          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+        ],
+        "bulletresponse": []
+      },
+      {
+        "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
+        "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
+        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+      }
+    ]
+  }
 }

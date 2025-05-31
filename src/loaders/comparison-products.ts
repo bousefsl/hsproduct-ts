@@ -1,7 +1,7 @@
-//Types
-import type { CompProductProps, LandlordCompProductProps } from "../types"
 //Loaders
 import { baseApi, baseLandlordApi } from "./base"
+//Types
+import type { CompProductProps, LandlordCompProductProps } from "../types"
 
 type myParams = {
   productCategory: string | null

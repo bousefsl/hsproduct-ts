@@ -38,7 +38,7 @@ export default function ComparisonCard({ title, monthlyCost, excessCost, inclusi
             )}
           </div>
           <div className="text-center">
-            <Link to={`../${policyLink}`} className="btn btn-primary">
+            <Link to={`../products/${policyLink}`} className="btn btn-primary">
               View policy details
             </Link>
           </div>

@@ -53,7 +53,7 @@
     {
       "productCategory": "Heating",
       "id": 6,
-      "title": "Gas Boiler",
+      "title": "Gas Boiler with Service",
       "monthlyCost": 10,
       "excessCost": 100,
       "inclusions": ["Your gas boiler", "Your gas supply pipe"],

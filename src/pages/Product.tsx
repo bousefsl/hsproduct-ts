@@ -2,14 +2,21 @@
 import { useLoaderData } from "react-router"
 //Loaders
 import { productLoader } from "../loaders/products"
+//Components
+import ProductHeader from "../components/ProductHeader"
+import ProductInclusionExclusion from "../components/ProductInclusionExclusion"
+import GetStartedChecklist from "../components/GetStartedChecklist"
+import FAQs from "../components/FAQs"
 
 export default function Product() {
   const { product } = useLoaderData()
-  //console.log(product)
 
   return (
     <>
-      <h1>{product.title}</h1>
+      <ProductHeader {...product} />
+      <ProductInclusionExclusion {...product} />
+      <GetStartedChecklist {...product} />
+      <FAQs {...product} />
     </>
   )
 }

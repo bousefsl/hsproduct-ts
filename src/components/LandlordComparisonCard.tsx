@@ -3,6 +3,8 @@ import { Fragment } from "react/jsx-runtime"
 import type { LandlordCompProductProps } from "../types"
 //React Router
 import { Link } from "react-router"
+//Utilities
+import formatCurrency from "../utilities/formatCurrency"
 
 export default function LandlordComparisonCard({ title, monthlyCost, inclusions, exclusions, policyLink }: LandlordCompProductProps) {
   return (
@@ -10,7 +12,7 @@ export default function LandlordComparisonCard({ title, monthlyCost, inclusions,
       <div className="card h-100">
         <div className="card-header">{title}</div>
         <div className="card-body">
-          <div>£{monthlyCost} a month</div>
+          <div>{formatCurrency(monthlyCost)} a month</div>
           <div>
             <p>This policy covers:</p>
             <ul>

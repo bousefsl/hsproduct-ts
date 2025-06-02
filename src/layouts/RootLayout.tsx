@@ -1,5 +1,5 @@
 //React Router
-import { Outlet } from "react-router"
+import { Outlet, ScrollRestoration } from "react-router"
 //Components
 import Header from "../components/global/Header"
 import NavBar from "../components/global/NavBar"
@@ -10,9 +10,12 @@ export default function RootLayout() {
     <div className="root-layout">
       <Header />
       <NavBar />
+      <ScrollRestoration />
       <main>
         <div className="main-container" aria-label="Main Content Area">
-          <Outlet />
+          <div className="container-xl">
+            <Outlet />
+          </div>
         </div>
       </main>
       <Footer />

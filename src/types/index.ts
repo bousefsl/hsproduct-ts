@@ -42,10 +42,12 @@ export type ProductProps = {
   whatsNotCovered: string[]
   eligibilityOwner: string
   eligibilityOwnerPropertyCover: string
+  FAQsAccordionID: string
   FAQs: faqProps[]
 }
 
-type faqProps = {
+export type faqProps = {
+  expandedonLoad: boolean
   header: string
   response: string[]
   bulletresponse: string[]

@@ -37,7 +37,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "<p>See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation.</p>"],
         "bulletresponse": []
       },
       {
@@ -55,7 +55,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -82,9 +82,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -92,7 +92,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -134,7 +134,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -152,7 +152,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -179,9 +179,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -189,7 +189,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -231,7 +231,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -243,13 +243,13 @@
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -276,9 +276,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -286,7 +286,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -328,7 +328,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -340,13 +340,13 @@
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -373,9 +373,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -383,7 +383,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -425,7 +425,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -437,13 +437,13 @@
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -470,9 +470,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -480,7 +480,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -522,7 +522,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -534,13 +534,13 @@
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -567,9 +567,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -577,7 +577,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -619,7 +619,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -631,13 +631,13 @@
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -664,9 +664,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -674,7 +674,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -716,13 +716,13 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28 days period after the policy has started when you will not be covered. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28 days period after the policy has started when you will not be covered. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
@@ -734,7 +734,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -755,9 +755,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -765,7 +765,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -807,7 +807,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -825,7 +825,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -863,9 +863,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -873,7 +873,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -915,7 +915,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -933,7 +933,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -971,9 +971,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -981,7 +981,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -1023,7 +1023,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -1041,7 +1041,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -1079,9 +1079,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -1089,7 +1089,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -1131,7 +1131,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -1149,7 +1149,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -1187,9 +1187,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -1197,7 +1197,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -1263,7 +1263,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -1281,7 +1281,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -1319,9 +1319,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -1329,7 +1329,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -1371,7 +1371,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -1383,13 +1383,13 @@
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -1416,9 +1416,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -1426,7 +1426,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -1468,7 +1468,7 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
@@ -1480,13 +1480,13 @@
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28-day period after the policy has started when you will not be covered, except for the boiler element, where the boiler must pass the boiler health check before you can make a claim. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -1513,9 +1513,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -1523,7 +1523,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   },
@@ -1565,13 +1565,13 @@
       {
         "expandedonLoad": false,
         "header": "What happens if I change my mind?",
-        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the terms and conditions of your policy for more information on cancellation."],
+        "response": ["If you wish to cancel your policy, you can do so at any time by contacting us.", "If this is within the 28-day cancellation period and you haven't made a claim, you will receive a full refund. If you have made a claim, you'll receive a refund minus the number of days you had cover.", "If it's after the 28 days and you have made a claim, you will need to pay any remaining payments for the full term of the policy. If you haven't made a claim, you'll receive a refund minus the number of days you had cover.", "See the <a href=\"#\">terms and conditions</a> of your policy for more information on cancellation."],
         "bulletresponse": []
       },
       {
         "expandedonLoad": false,
         "header": "When will I be able to make my first claim?",
-        "response": ["There's an initial 28 days period after the policy has started when you will not be covered. Any pre-existing issues will not be covered.", "Take a look at the terms and conditions of your policy for full details."],
+        "response": ["There's an initial 28 days period after the policy has started when you will not be covered. Any pre-existing issues will not be covered.", "Take a look at the <a href=\"#\">terms and conditions</a> of your policy for full details."],
         "bulletresponse": []
       },
       {
@@ -1583,7 +1583,7 @@
       {
         "expandedonLoad": false,
         "header": "What if I need a repair that isn't covered by my insurance?",
-        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on 0330 0247 064 to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
+        "response": ["Don't worry. HomeServe's one off repairs team can help!", "We offer a range of fixed price services that will help keep your home running smoothly. All our repairs are carried out by HomeServe approved experts. Call our team on <a href=\"tel:03300247064\" title=\"Click to dial - mobile only\">0330 0247 064</a> to find out more.", "For enquiries, lines are open on weekdays from 8am to 6.30pm and Saturdays from 8am to 4pm. We are closed on Sundays. Calls will cost you no more than the rate of a standard call and charges may vary depending on your network provider. Calls are recorded for quality control and training purposes."],
         "bulletresponse": []
       },
       {
@@ -1604,9 +1604,9 @@
         "response": [
           "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
           "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis, Perth, Scotland, PH2 0NH.",
+          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
           "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's Financial Services Register."
+          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
         ],
         "bulletresponse": []
       },
@@ -1614,7 +1614,7 @@
         "expandedonLoad": false,
         "header": "Where can I find the product documents and terms and conditions that relate to my cover?",
         "response": ["The full terms and conditions of your policy, plus other important documents about your cover and HomeServe's services, can be found below:"],
-        "bulletresponse": ["Insurance Product Information Document", "Terms and Conditions", "About HomeServe's services"]
+        "bulletresponse": ["<a href=\"#\">Insurance Product Information Document</a>", "<a href=\"#\">Terms and conditions</a>", "<a href=\"#\">About HomeServe's services</a>"]
       }
     ]
   }

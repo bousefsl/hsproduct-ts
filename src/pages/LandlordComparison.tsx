@@ -9,6 +9,9 @@ import { landlordComparisonProductsLoader } from "../loaders/comparison-products
 import type { LandlordCompProductProps } from "../types"
 
 export default function LandlordComparison() {
+  //Array to map through to generate the "productCategory" <select> options (checks against the "coverState.cover" value above)
+  const typeOfCoverArr: string[] = ["Plumbing", "Heating", "Electrics"]
+
   const {
     landlordproducts,
     searchParams: { productCategory },
@@ -30,10 +33,14 @@ export default function LandlordComparison() {
             <label className="form-label" htmlFor="productCategory">
               Filter
             </label>
-            <select className="form-select" id="productCategory" name="productCategory" ref={productRef}>
-              <option>Plumbing</option>
-              <option>Heating</option>
-              <option>Electrics</option>
+            <select className="form-select" id="productCategory" name="productCategory" ref={productRef} defaultValue={productCategory}>
+              {typeOfCoverArr.map((cover, index) => {
+                return (
+                  <option key={index} value={cover}>
+                    {cover}
+                  </option>
+                )
+              })}
             </select>
             <button className="btn btn-primary">Filter</button>
           </div>

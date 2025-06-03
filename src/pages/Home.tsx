@@ -1,5 +1,6 @@
 //React Router
 import { Link } from "react-router"
+import ProductFinder from "../components/ProductFinder"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <p>
         <Link to={`landlord-comparison?productCategory=Plumbing`}>Landlord Comparison</Link>
       </p>
+      <ProductFinder />
     </>
   )
 }

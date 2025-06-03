@@ -3,9 +3,10 @@ import { Fragment } from "react/jsx-runtime"
 import type { ProductProps } from "../types"
 //Components
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from "./global/Accordion"
+//Packages
+import DOMPurify from "dompurify"
 
 export default function FAQs(product: ProductProps) {
-  console.log(product)
   return (
     <div className="faqs">
       <section className="section-spacer py-5">
@@ -20,7 +21,8 @@ export default function FAQs(product: ProductProps) {
                     <AccordionBody expanded={item.expandedonLoad} index={index} id={product.FAQsAccordionID}>
                       {item.response.length > 0 ? (
                         item.response.map((resp, index) => {
-                          return <p key={index}>{resp}</p>
+                          const sanitisedHTML = DOMPurify.sanitize(resp)
+                          return <p key={index} dangerouslySetInnerHTML={{ __html: sanitisedHTML }}></p>
                         })
                       ) : (
                         <Fragment></Fragment>
@@ -28,7 +30,8 @@ export default function FAQs(product: ProductProps) {
                       <ul>
                         {item.bulletresponse.length > 0 ? (
                           item.bulletresponse.map((bullet, index) => {
-                            return <li key={index}>{bullet}</li>
+                            const sanitisedHTML = DOMPurify.sanitize(bullet)
+                            return <li key={index} dangerouslySetInnerHTML={{ __html: sanitisedHTML }}></li>
                           })
                         ) : (
                           <Fragment></Fragment>

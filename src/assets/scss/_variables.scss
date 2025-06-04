@@ -1,11 +1,155 @@
-$red: #e62419;
+// Color system
 
+// scss-docs-start gray-color-variables
+$white: #fff !default;
+$gray-50: #f6f6f6 !default;
+$gray-100: #e7e7e7 !default;
+$gray-200: #d1d1d1 !default;
+$gray-300: #b0b0b0 !default;
+$gray-400: #888888 !default;
+$gray-500: #6d6d6d !default;
+$gray-600: #5d5d5d !default;
+$gray-700: #4f4f4f !default;
+$gray-800: #454545 !default;
+$gray-900: #333333 !default;
+$gray-950: #262626 !default;
+$black: #000 !default;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "50": $gray-50,
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900,
+  "950": $gray-950,
+) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+$blue: #0087b4 !default;
+$link-blue: #0078a0 !default;
+$red: #e62419 !default;
+$teal: #00838f !default;
+$warm-gray: #eceae6 !default;
+$cool-gray: #d1d7db !default;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "blue": $blue,
+  "link-blue": $link-blue,
+  "red": $red,
+  "teal": $teal,
+  "black": $black,
+  "white": $white,
+  "gray": $gray-500,
+  "gray-dark": $gray-900,
+  "warm-gray": $warm-gray,
+  "cool-gray": $cool-gray,
+) !default;
+// scss-docs-end colors-map
+
+$blue-50: #ebfeff !default;
+$blue-100: #cdf9ff !default;
+$blue-200: #a1f1ff !default;
+$blue-300: #60e4ff !default;
+$blue-400: #18cdf8 !default;
+$blue-500: #00b1de !default;
+$blue-600: $blue !default;
+$blue-700: #086f96 !default;
+$blue-800: #105a7a !default;
+$blue-900: #124b67 !default;
+$blue-950: #053047 !default;
+
+$red-50: #fff2f1 !default;
+$red-100: #ffe2e0 !default;
+$red-200: #ffcac7 !default;
+$red-300: #ffa5a0 !default;
+$red-400: #ff7169 !default;
+$red-500: #f9443a !default;
+$red-600: $red !default;
+$red-700: #c21c13 !default;
+$red-800: #a01c14 !default;
+$red-900: #851d17 !default;
+$red-950: #480a07 !default;
+
+$teal-50: #e8fffb !default;
+$teal-100: #c5fff6 !default;
+$teal-200: #92ffee !default;
+$teal-300: #47ffe2 !default;
+$teal-400: #00ffe2 !default;
+$teal-500: #00feff !default;
+$teal-600: #00c9d7 !default;
+$teal-700: #009fac !default;
+$teal-800: $teal !default;
+$teal-900: #056774 !default;
+$teal-950: #004651 !default;
+
+$blues: (
+  "blue-50": $blue-50,
+  "blue-100": $blue-100,
+  "blue-200": $blue-200,
+  "blue-300": $blue-300,
+  "blue-400": $blue-400,
+  "blue-500": $blue-500,
+  "blue-600": $blue-600,
+  "blue-700": $blue-700,
+  "blue-800": $blue-800,
+  "blue-900": $blue-900,
+  "blue-950": $blue-950,
+) !default;
+
+$reds: (
+  "red-50": $red-50,
+  "red-100": $red-100,
+  "red-200": $red-200,
+  "red-300": $red-300,
+  "red-400": $red-400,
+  "red-500": $red-500,
+  "red-600": $red-600,
+  "red-700": $red-700,
+  "red-800": $red-800,
+  "red-900": $red-900,
+  "red-950": $red-950,
+) !default;
+
+$teals: (
+  "teal-50": $teal-50,
+  "teal-100": $teal-100,
+  "teal-200": $teal-200,
+  "teal-300": $teal-300,
+  "teal-400": $teal-400,
+  "teal-500": $teal-500,
+  "teal-600": $teal-600,
+  "teal-700": $teal-700,
+  "teal-800": $teal-800,
+  "teal-900": $teal-900,
+  "teal-950": $teal-950,
+) !default;
+
+// scss-docs-start theme-color-variables
 $primary: $red !default;
-$secondary: #fff !default;
+$secondary: $white !default;
+$info: $blue !default;
+$light: $gray-50 !default;
+$dark: $gray-950 !default;
+// scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
+  "info": $info,
+  "light": $light,
+  "dark": $dark,
 );
 // scss-docs-end theme-colors-map

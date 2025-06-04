@@ -1,0 +1,115 @@
+.footer-wrapper {
+  padding-top: 4rem;
+}
+.hs-logo-wrapper {
+  height: 4.5rem;
+}
+.hs-logo-wrapper > picture {
+  height: inherit;
+  display: inline-flex;
+}
+
+.footer-links-header,
+ul.footer-links-column > li a {
+  color: #fff;
+}
+
+.footer-links-column-wrapper {
+  width: 100%;
+}
+
+a.footer-links-header[data-bs-toggle="collapse"] {
+  position: relative;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #757575;
+  padding-bottom: 0.75rem;
+  text-decoration: none;
+}
+a.footer-links-header[data-bs-toggle="collapse"]::after {
+  position: absolute;
+  content: "\e976";
+  font-family: "HomeServe-Icons";
+  top: -0.5rem;
+  right: 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+a.footer-links-header[data-bs-toggle="collapse"][aria-expanded="true"] {
+  margin-bottom: 0.75rem;
+}
+a.footer-links-header[data-bs-toggle="collapse"][aria-expanded="false"]::after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: all ease 0.5s;
+}
+a.footer-links-header[data-bs-toggle="collapse"][aria-expanded="true"]::after {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: all ease 0.5s;
+}
+
+@media (min-width: 768px) {
+  .footer-links-column-wrapper {
+    width: auto;
+    padding-right: 4rem;
+  }
+  a.footer-links-header[data-bs-toggle="collapse"] {
+    width: auto;
+    pointer-events: none;
+    border: none;
+    padding-bottom: 0.5rem;
+  }
+  a.footer-links-header[data-bs-toggle="collapse"]::after {
+    content: "";
+  }
+  a.footer-links-header[aria-expanded="false"] + ul.footer-links-column {
+    display: block;
+  }
+}
+
+ul.footer-links-column {
+  padding-left: 0;
+  list-style-type: none;
+}
+ul.footer-links-column > li a:hover {
+  color: #d1d7db;
+  text-decoration: none;
+}
+
+ul.footer-links-column.social-links li a {
+  text-decoration: none !important;
+  display: block;
+  margin-right: 0.4rem;
+}
+ul.footer-links-column.social-links li a:hover,
+ul.footer-links-column.social-links li a:hover > i {
+  cursor: pointer;
+}
+
+ul.footer-links-column.social-links li a > i {
+  color: #757575;
+  transition: all ease-in 0.3s;
+}
+ul.footer-links-column.social-links li a:hover > i {
+  color: #fff;
+}
+
+.footer-inline-links ul.footer-links-column li {
+  margin-right: 1.5rem;
+}
+
+/*Red horoizontal line*/
+.red-line {
+  border-top: 2px solid #e62419;
+  margin: 0.5rem 0;
+  opacity: 1;
+}
+
+.footer-base-content {
+  line-height: 4rem;
+}
+.footer-baseline {
+  padding: 1.25rem 0 0.3rem;
+}

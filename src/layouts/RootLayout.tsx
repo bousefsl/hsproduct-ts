@@ -13,9 +13,7 @@ export default function RootLayout() {
       <ScrollRestoration />
       <main>
         <div className="main-container" aria-label="Main Content Area">
-          <div className="container-xl">
-            <Outlet />
-          </div>
+          <Outlet />
         </div>
       </main>
       <Footer />

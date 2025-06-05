@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router"
 export default function NavBar() {
   return (
     <nav className="top-nav">
-      <div className="nav-text-large">
+      {/* <div className="nav-text-large">
         <Link to="/">Home</Link>
       </div>
       <ul className="nav-list">
@@ -14,7 +14,7 @@ export default function NavBar() {
         <li>
           <NavLink to="/landlord-comparison">Landlord Comparison</NavLink>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   )
 }

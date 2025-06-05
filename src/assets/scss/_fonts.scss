@@ -1,0 +1,43 @@
+@mixin font-face($style-name, $font-file) {
+  $filepath: "../fonts/" + $font-file;
+
+  @font-face {
+    font-family: "#{$style-name}";
+    src: url($filepath + ".woff") format("woff"), url($filepath + ".woff2") format("woff2");
+  }
+
+  %#{$style-name} {
+    font: {
+      family: "#{$style-name}";
+      weight: normal;
+    }
+  }
+}
+
+@include font-face("museo-300", "museo-sans-rounded-300-webfont");
+@include font-face("museo-500", "museo-sans-rounded-500-webfont");
+@include font-face("museo-700", "museo-sans-rounded-700-webfont");
+@include font-face("museo-900", "museo-sans-rounded-900-webfont");
+
+$font-family-thin-stack: "museo-300", Arial, sans-serif;
+$font-family-medium-stack: "museo-500", Arial, sans-serif;
+$font-family-thick-stack: "museo-700", Arial, sans-serif;
+$font-family-extrathick-stack: "museo-900", Arial, sans-serif;
+
+@mixin font-face-icons($style-name, $font-file) {
+  $filepath: "../fonts/" + $font-file;
+
+  @font-face {
+    font-family: "#{$style-name}";
+    src: url($filepath + ".woff") format("woff");
+  }
+
+  %#{$style-name} {
+    font: {
+      family: "#{$style-name}";
+      weight: normal;
+    }
+  }
+}
+
+@include font-face-icons("HomeServe-Icons", "HomeServe-Icons");

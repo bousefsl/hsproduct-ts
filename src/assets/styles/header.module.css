@@ -1,0 +1,23 @@
+.header-wrapper {
+  background-color: #fff;
+}
+.head-area {
+  min-height: 5rem;
+}
+
+.navbar-nav-size {
+  width: 187px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand-size {
+    width: 163px;
+    display: inline-block;
+  }
+  .navbar-nav-size {
+    width: 26px;
+  }
+}

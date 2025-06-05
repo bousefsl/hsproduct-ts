@@ -153,3 +153,68 @@ $theme-colors: (
   "dark": $dark,
 );
 // scss-docs-end theme-colors-map
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-color: $gray-800;
+$body-bg: $gray-50;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $link-blue;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+// scss-docs-start border-radius-variables
+$border-radius: 1rem;
+$border-radius-light: calc($border-radius / 2);
+
+$modal-border-radius: $border-radius;
+// scss-docs-end border-radius-variables
+
+// scss-docs-start box-shadow-variables
+$box-shadow: 0 0.125rem 0.5rem rgba($black, 0.35) !default;
+// scss-docs-end box-shadow-variables
+
+//Navbar
+//
+$navbar-light-active-color: $white;
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+// scss-docs-start dropdown-variables
+$dropdown-color: $dark;
+$dropdown-bg: $gray-100;
+$dropdown-border-color: $gray-300;
+$dropdown-border-radius: $border-radius-light;
+
+$dropdown-link-active-color: $dark;
+$dropdown-link-active-bg: $gray-100;
+
+$dropdown-link-hover-bg: $gray-300;
+
+$dropdown-item-padding-y: 0.625rem;
+$dropdown-item-padding-x: 1.5rem;
+// scss-docs-end dropdown-variables
+
+// Offcanvas
+
+// scss-docs-start offcanvas-variables
+$offcanvas-bg-color: $gray-800;
+$offcanvas-color: $white;
+$offcanvas-dropdown-bg-color: $gray-800;
+// scss-docs-end offcanvas-variables
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: $font-family-thin-stack;
+$font-size-base: 1rem;

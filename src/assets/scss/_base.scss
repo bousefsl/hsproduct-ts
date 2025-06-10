@@ -17,3 +17,10 @@ body {
 }
 
 main {margin-bottom: 4rem;}
+
+//Section spacer
+.section-spacer {
+    margin-bottom: $section-spacer;
+
+    &.section-top {margin-top: $section-spacer-top;}
+}

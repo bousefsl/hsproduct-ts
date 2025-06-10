@@ -6,7 +6,7 @@ import type { ProductProps } from "../types"
 export default function GetStartedChecklist(product: ProductProps) {
   return (
     <div className="get-started">
-      <section className="section-spacer bg-light py-5">
+      <section className="section-spacer">
         <div className="container-xl">
           <div className="row justify-content-center">
             <div className="col-md-10">

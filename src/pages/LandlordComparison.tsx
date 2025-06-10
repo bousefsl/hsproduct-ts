@@ -24,41 +24,45 @@ export default function LandlordComparison() {
   }, [productCategory])
 
   return (
-    <>
-      <h1>Landlord Comparison</h1>
+    <section className="section-spacer section-top">
+      <div className="container-xl">
+        <div className="row">
+          <div className="col">
+            <h1>Landlord Comparison</h1>
 
-      <Form>
-        <div className="row g-4">
-          <div className="form-group">
-            <label className="form-label" htmlFor="productCategory">
-              Filter
-            </label>
-            <select className="form-select" id="productCategory" name="productCategory" ref={productRef} defaultValue={productCategory}>
-              {typeOfCoverArr.map((cover, index) => {
-                return (
-                  <option key={index} value={cover}>
-                    {cover}
-                  </option>
-                )
-              })}
-            </select>
-            <button className="btn btn-primary">Filter</button>
+            <Form>
+              <div className="row g-4">
+                <div className="form-group">
+                  <label className="form-label" htmlFor="productCategory">
+                    Filter
+                  </label>
+                  <select className="form-select" id="productCategory" name="productCategory" ref={productRef} defaultValue={productCategory}>
+                    {typeOfCoverArr.map((cover, index) => {
+                      return (
+                        <option key={index} value={cover}>
+                          {cover}
+                        </option>
+                      )
+                    })}
+                  </select>
+                  <button className="btn btn-primary">Filter</button>
+                </div>
+              </div>
+            </Form>
+
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4">
+              {landlordproducts.length > 0 ? (
+                landlordproducts.map((landlordproduct: LandlordCompProductProps) => {
+                  return <LandlordComparisonCard key={landlordproduct.id} {...landlordproduct} />
+                })
+              ) : (
+                <div>Sorry, but there isn't anything matching. Please try again.</div>
+              )}
+            </div>
           </div>
         </div>
-      </Form>
-
-      <div className="row row-cols-1 row-cols-md-4 g-4">
-        {landlordproducts.length > 0 ? (
-          landlordproducts.map((landlordproduct: LandlordCompProductProps) => {
-            return <LandlordComparisonCard key={landlordproduct.id} {...landlordproduct} />
-          })
-        ) : (
-          <div>Sorry, but there isn't anything matching. Please try again.</div>
-        )}
       </div>
-
-      {/* <p>{JSON.stringify(landlordproducts)}</p> */}
-    </>
+    </section>
   )
 }
 

@@ -7,8 +7,8 @@ export default function ProductHeader(product: ProductProps) {
   //console.log(product)
 
   return (
-    <div className="product-header mt-5">
-      <section className="section-spacer mb-4">
+    <div className="product-header">
+      <section className="section-spacer section-top">
         <div className="container-xl">
           <div className="row">
             <div className="col-md-6">

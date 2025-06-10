@@ -1,0 +1,24 @@
+ul.included, ul.excluded {
+    padding-left: 1rem;
+
+    & > li {
+        list-style: none; padding-left: 0.5rem;
+
+        &::marker {
+            font-family: "HomeServe-Icons"; font-size: 1.2rem;
+        }
+    }
+}
+
+ul.included > li {
+    font-weight: 600;
+
+    &::marker {content: "\e922"; color: $red;}
+}
+
+ul.excluded > li {
+    color: $gray-500;
+
+    &::marker {content: "\e931"; color: $gray-300;
+    }
+}

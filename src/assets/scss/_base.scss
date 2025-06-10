@@ -1,0 +1,19 @@
+html {background: 0 0;}
+
+body {
+    font-family: $font-family-sans-serif;
+    color: $body-color;
+    background-color: $light;
+    text-align: left;
+
+    & .homeserve-thin {
+        font-family: $font-family-thin-stack;}
+    & .homeserve-medium {
+        font-family: $font-family-medium-stack}
+    & .homeserve-thick {
+        font-family: $font-family-thick-stack}
+    & .homeserve-extrathick {
+        font-family: $font-family-extrathick-stack}
+}
+
+main {margin-bottom: 4rem;}

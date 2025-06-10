@@ -151,6 +151,10 @@ $theme-colors: (
   "info": $info,
   "light": $light,
   "dark": $dark,
+  "gray": $gray-500,
+  "light-gray-100": $gray-100,
+  "dark-gray-600": $gray-600,
+  "dark-gray-700": $gray-700,
 );
 // scss-docs-end theme-colors-map
 
@@ -218,3 +222,8 @@ $offcanvas-dropdown-bg-color: $gray-800;
 
 $font-family-sans-serif: $font-family-thin-stack;
 $font-size-base: 1rem;
+
+//Margins
+//
+//Enable negative margins
+$enable-negative-margins: true;

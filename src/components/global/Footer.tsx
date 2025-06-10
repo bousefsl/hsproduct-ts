@@ -62,7 +62,7 @@ export default function Footer() {
           <div className="d-flex flex-row flex-wrap mb-4">
             {footerNav.map((section, index) => {
               return (
-                <div className={`${classes["footer-links-column-wrapper"]} d-flex flex-column mb-3`}>
+                <div key={index} className={`${classes["footer-links-column-wrapper"]} d-flex flex-column mb-3`}>
                   <a className={`${classes["footer-links-header"]} lead homeserve-thick`} data-bs-toggle="collapse" href={`#collapseExample${index}`} role="button" aria-expanded="false" aria-controls={`collapseExample${index}`}>
                     {section.title}
                   </a>

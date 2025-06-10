@@ -2,107 +2,194 @@
   & .offcanvas-lg {
     padding: 1rem;
 
-    & ul.dropdown-menu.show {
-      background-color: $offcanvas-dropdown-bg-color;
-      border-color: transparent;
-
-      & a.dropdown-item {
-        color: $white;
-
-        &:hover {
-          color: $dark;
-        }
-      }
-    }
-
     @media screen and (min-width: 992px) {
-      padding: 0;
+      padding: 0 0.5rem;
+    }
 
-      & ul.dropdown-menu.show {
-        background-color: $dropdown-bg;
-        border-color: $dropdown-border-color;
+    &.show {
+      opacity: 0.95;
+    }
 
-        & a.dropdown-item {
+    &.offcanvas-start {
+      @media (max-width: 991.98px) {
+        top:61px; overflow-y: scroll;
+      }
+    }
+
+    & .navbar-nav {
+      font-family: $font-family-medium-stack;
+
+      & .nav-item {
+
+        @media (min-width: 992px) {
+          margin-right: 0.5rem;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        &.is-megamenu {
+          @media (min-width: 992px) {
+            position: static;
+          }
+        }
+
+        & .dropdown-menu {
+          &.megamenu-wrapper {
+            @media (min-width: 992px) {
+              width: 100vw; left: 50%; transform: translate(-50%, 0); background-color: transparent !important; padding: 0; border: none;
+            }
+
+            & .megamenu {
+              @media (min-width: 992px) {
+                background-color: $white; margin: 0 auto; border-radius: $border-radius-light; box-shadow: $box-shadow; animation: 0.5s slideup-fadein;
+              }
+
+              &-sm {
+                @extend .megamenu;
+                @media (min-width: 992px)  {
+                  max-width: 960px;
+                }
+              }
+
+              & .navlink-title {
+                text-transform: uppercase;
+                padding: 0.5rem 1rem 0.25rem;
+                margin-left: -1rem;
+                background-color: $gray-100;
+                border-radius: $border-radius-light;
+
+                @media (min-width: 992px)  {
+                  padding-bottom: 0;
+                  margin-left: 0;
+                  background-color: transparent;
+                }
+              }
+            }
+          }
+
+          & a.dropdown-item.active,
+          & a.dropdown-item:active {
+            background-color: transparent;
+
+            &:hover, &:focus {text-decoration: none !important;}
+          }
+
+          &.show {
+            border-color: transparent;
+
+            
+
+            & a.dropdown-item {
+              color: $dark; white-space: wrap; transition: all 0.2s ease-in; padding-left: 0.5rem; padding-right: 0.5rem; position: relative;
+
+              @media screen and (min-width: 992px) {
+                padding-left: 1rem; padding-right: 1rem;
+              }
+
+              & > span.fw-bold {
+
+                &::after {
+                  font-family: "HomeServe-Icons";
+                  content: "\e97c";
+                  position: absolute;
+                  right: 0;
+
+                  @media screen and (min-width: 992px) {
+                    content: "";
+                  }
+                }
+              }
+
+              &:hover {
+                color: $dark; background-color: $gray-100; border-radius: $border-radius-light;
+
+                & > span.fw-bold {text-decoration: underline;}
+              }
+            }
+
+            @media screen and (min-width: 992px) {
+              background-color: $dropdown-bg; border-color: $dropdown-border-color;
+
+              & a.dropdown-item {
+                color: $dark;
+              }
+            }
+          }
+        }
+      }
+
+      & .nav-link {
+        border-bottom: 1px solid $gray-200; font-weight: 600;
+
+        @media (min-width: 992px) {
+          border-bottom: none;
+          font-family: $font-family-medium-stack;
+          font-weight: normal;
+        }
+
+        &.active {background-color: transparent; padding-left: 0.5rem;}
+
+        &, &.active, &.show {
           color: $dark;
+
+          @media (min-width: 992px) {
+            color: $white;
+          }
         }
-      }
-    }
-  }
-  & .navbar-nav {
-    font-family: $font-family-medium-stack;
 
-    & .nav-item {
-      @media (min-width: 992px) {
-        margin-right: 0.5rem;
-
-        &:last-child {
-          margin-right: 0;
+        &:hover, &:focus {
+          @media (min-width: 992px) {
+            background-color: $red-800; border-radius: 0.5rem;
+          }
         }
-      }
-    }
 
-    & .nav-link {
-      &.active {
-        background-color: transparent;
-        padding-left: 0.5rem;
-      }
+        &.dropdown-toggle {
+          position: relative;
 
-      &,
-      &.active,
-      &.show {
-        @media (min-width: 992px) {
-          color: $white;
+          &:after {
+            font-family: "HomeServe-Icons";
+            font-size: 1.2rem;
+            position: absolute;
+            right: 0;
+            content: "\e975";
+            width: 1.2rem;
+            height: 1.2rem;
+            border: 0;
+            vertical-align: -0.15rem;
+            -webkit-transition: -webkit-transform linear 0.25s;
+            -moz-transition: -moz-transform linear 0.25s;
+            -ms-transition: -ms-transform linear 0.25s;
+            -o-transition: -o-transform linear 0.25s;
+            transition: transform linear 0.25s;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            transform-origin: center 72%;
+            display: inline-block;
+
+            @media (min-width:992px) {
+              position: static;
+            }
+          }
+          &.show:after {
+            -webkit-transform: rotate(-180deg);
+            -moz-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+            -o-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+          }
         }
-      }
 
-      &:hover,
-      &:focus {
-        @media (min-width: 992px) {
-          background-color: $red-700;
-          border-radius: 0.5rem;
-        }
-      }
+        &:not(.dropdown-toggle) {
+          line-height: 1.7rem;
 
-      &.dropdown-toggle {
-        &:after {
-          font-family: "HomeServe-Icons";
-          font-size: 1.2rem;
-          content: "\e975";
-          width: 1.2rem;
-          height: 1.2rem;
-          border: 0;
-          vertical-align: -0.15rem;
-          -webkit-transition: -webkit-transform linear 0.25s;
-          -moz-transition: -moz-transform linear 0.25s;
-          -ms-transition: -ms-transform linear 0.25s;
-          -o-transition: -o-transform linear 0.25s;
-          transition: transform linear 0.25s;
-          -webkit-transform: rotate(0deg);
-          -moz-transform: rotate(0deg);
-          -ms-transform: rotate(0deg);
-          -o-transform: rotate(0deg);
-          transform: rotate(0deg);
-          transform-origin: center 72%;
-          display: inline-block;
-        }
-        &.show:after {
-          -webkit-transform: rotate(-180deg);
-          -moz-transform: rotate(-180deg);
-          -ms-transform: rotate(-180deg);
-          -o-transform: rotate(-180deg);
-          transform: rotate(-180deg);
-        }
-      }
-    }
-
-    & .dropdown-menu {
-      & a.dropdown-item.active,
-      & a.dropdown-item:active {
-        background-color: transparent;
-
-        &:hover,
-        &:focus {
-          text-decoration: none !important;
+          @media (max-width:991.98px) {
+            padding-left: 0;
+          }
         }
       }
     }
@@ -111,61 +198,33 @@
   /*Navbar toggler icon*/
   .navbar-toggler {
     & span {
-      display: block;
-      background-color: $white;
-      height: 2px;
-      width: 20px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      position: relative;
-      left: 0;
-      opacity: 1;
-      transition: all 0.35s ease-out;
-      transform-origin: center left;
+      display: block; background-color: $white; height: 2px; width: 20px; margin-top: 5px; margin-bottom: 5px;
+      position: relative; left: 0; opacity: 1; transition: all 0.35s ease-out; transform-origin: center left;
 
-      &:nth-child(1) {
-        margin-top: 0.3rem;
-      }
+      &:nth-child(1) {margin-top: 0.3rem;}
 
-      &:nth-child(1),
-      &:nth-child(3) {
-        transform: translate(0%, 0%) rotate(0deg);
-      }
+      &:nth-child(1), &:nth-child(3) {transform: translate(0%, 0%) rotate(0deg);}
 
-      &:nth-child(2) {
-        opacity: 1;
-      }
+      &:nth-child(2) {opacity: 1;}
     }
 
     &:not(.collapsed) {
       & span {
-        &:nth-child(1) {
-          transform: translate(15%, 0%) rotate(45deg);
-        }
+        &:nth-child(1) {transform: translate(15%, 0%) rotate(45deg);}
 
-        &:nth-child(2) {
-          opacity: 0;
-        }
+        &:nth-child(2) {opacity: 0;}
 
-        &:nth-child(3) {
-          transform: translate(15%, 0%) rotate(-45deg);
-        }
+        &:nth-child(3) {transform: translate(15%, 0%) rotate(-45deg);}
       }
     }
 
     /*Navbar toggler - toggled*/
-    &.collapsed {
-      border: none;
-      border-radius: 0;
-    }
+    &.collapsed {border: none; border-radius: 0;}
 
     &[aria-expanded="true"] {
-      background-color: $red-700;
-      border-radius: 0;
+      background-color: $red-700; border-radius: 0;
 
-      & span {
-        background-color: $white;
-      }
+      & span {background-color: $white;}
     }
   }
 }

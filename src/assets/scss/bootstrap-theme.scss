@@ -4,10 +4,13 @@
 // 2. Include any default variable overrides here
 @import "_fonts";
 @import "_variables";
+@import "_type";
 @import "_base";
 @import "_keyframes";
 @import "_icons";
 @import "_navbar";
+@import "_lists";
+@import "_card";
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "~bootstrap/scss/variables";

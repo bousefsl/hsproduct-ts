@@ -1,0 +1,32 @@
+.card {
+    background-color: $white;
+}
+
+.comparison-card {
+    padding: 1rem 1rem 2rem; border-color: $cool-gray;
+
+    @media screen and (min-width: 992px) {
+        padding: 1.5rem 1.5rem 2rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 1.625rem 1.625rem 2.5rem;
+    }
+
+    & .card-header {
+        border: none; padding: 0; margin-bottom: 1rem; background-color: transparent; text-align: center;
+        font-family: $font-family-medium-stack; font-weight: bold; font-size: $font-size-base * 1.2; min-height: auto;
+
+        @media screen and (min-width: 992px) {
+            min-height: 3rem;
+        }
+    }
+
+    & .card-body {
+        font-weight: 500;
+
+        & .policy-attribute-list-wrapper {
+            min-height: 26rem;
+        }
+    }
+}

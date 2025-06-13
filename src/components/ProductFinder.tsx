@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router"
+import { Button } from "./global/Button"
 
 export default function ProductFinder() {
   const navigate = useNavigate()
@@ -122,9 +123,9 @@ export default function ProductFinder() {
                 </div>
                 <div className="col-lg-3 text-lg-end">
                   <div className="d-grid d-md-inline-block gap-2 col-10 col-sm-8 col-lg-auto mx-auto mb-3 mb-lg-0">
-                    <button type="submit" className="btn btn-secondary" disabled={!(propertyOwnerSelected && coverTypeSelected && propertyTypeSelected)} id="submit-btn">
+                    <Button variant="secondary" disabled={!(propertyOwnerSelected && coverTypeSelected && propertyTypeSelected)} id="submit-btn">
                       Search cover
-                    </button>
+                    </Button>
                   </div>
                 </div>
               </form>

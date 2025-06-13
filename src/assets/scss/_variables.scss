@@ -231,3 +231,21 @@ $enable-negative-margins: true;
 //Page Section Spacers
 $section-spacer-top: 3rem;
 $section-spacer: 5rem;
+
+//Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+// scss-docs-start btn-variables
+
+$btn-font-family:               $font-family-medium-stack;
+$btn-font-weight:               bold;
+$btn-padding-x:                 1.25rem;
+$btn-padding-y:                 0.5rem;
+
+$btn-border-radius: $border-radius * 2;
+$btn-border-width: 0.125rem;
+
+$btn-disabled-opacity:        .4 !default;
+
+// scss-docs-end btn-variables

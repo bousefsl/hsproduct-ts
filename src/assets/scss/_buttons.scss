@@ -1,0 +1,33 @@
+.btn {
+    cursor: pointer;
+
+    &.btn-primary, &.btn-secondary {
+        font-family: $btn-font-family;
+        border-radius: $btn-border-radius; border-width: $btn-border-width; border-style: solid;
+        padding-left: $btn-padding-x; padding-right: $btn-padding-x;
+        padding-top: $btn-padding-y; padding-bottom: $btn-padding-y;
+        transition: all 0.25s ease-in;
+
+        &:disabled, &.disabled, fieldset:disabled {
+            opacity: $btn-disabled-opacity;
+        }
+    }
+
+    &.btn-primary {
+        background-color: $red; border-color: $red; color: $white;
+
+        &:hover, &:focus {
+            background-color: $red-800; border-color: $red-800;
+        }
+    }
+
+    &.btn-secondary {
+        background-color: $white; border-color: $red; color: $dark; font-weight: $btn-font-weight;
+
+        &:hover, &:focus {
+            background-color: $gray-100; border-color: $red-800;
+        }
+    }
+
+    
+}

@@ -1,0 +1,22 @@
+.accordion {
+    // scss-docs-start accordion-css-vars
+    & .accordion-item {
+        border-color: $gray-200;
+
+        & .accordion-button {
+            font-family: $font-family-extrathick-stack; color: $accordion-button-color;
+
+            &.collapsed {background-color: $white;}
+
+            &::after {
+                color: $accordion-icon-color; font-family: "HomeServe-Icons"; content: "\e975"; font-size: 1.6rem; background-image: none;
+                height: auto; width: auto;
+            }
+        }
+    }
+
+    & .accordion-body {
+        font-family: $font-family-medium-stack; background-color: $white;
+    }
+    // scss-docs-end accordion-css-vars
+}

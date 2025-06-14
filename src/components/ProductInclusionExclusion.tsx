@@ -1,3 +1,6 @@
+import { Fragment } from "react/jsx-runtime"
+//React Router
+import { Link } from "react-router"
 //Types
 import type { ProductProps } from "../types"
 
@@ -10,7 +13,7 @@ export default function ProductInclusionExclusion(product: ProductProps) {
           <div className="row justify-content-center">
             <div className="col-md-5">
               <div className="px-2">
-                <ul className="ticks">
+                <ul className="included icons-success">
                   {product.insuranceFor.map((item, index) => {
                     return <li key={index}>{item}</li>
                   })}
@@ -25,6 +28,15 @@ export default function ProductInclusionExclusion(product: ProductProps) {
                       return <li key={index}>{item}</li>
                     })}
                   </ul>
+                  <p className="ps-3">
+                    {product.insuranceNotForLinkRequired ? (
+                      <>
+                        For landlords, please visit: <Link to={product.insuranceNotForLink}>Landlord's {product.title}</Link>
+                      </>
+                    ) : (
+                      <Fragment></Fragment>
+                    )}
+                  </p>
                 </div>
               </div>
             </div>
@@ -32,6 +44,10 @@ export default function ProductInclusionExclusion(product: ProductProps) {
           <div className="row justify-content-center">
             <div className="col-md-5 mb-4 mb-lg-5">
               <div className="card h-100">
+                <div className="card-header h5 homeserve-medium fw-bold py-3">
+                  <i className="icon-hs-tick-outline icon-hs-1-5x text-success me-2" aria-hidden="true" />
+                  What's covered:
+                </div>
                 <div className="card-body">
                   <ul>
                     {product.whatsCovered.map((item, index) => {
@@ -43,6 +59,10 @@ export default function ProductInclusionExclusion(product: ProductProps) {
             </div>
             <div className="col-md-5 mb-4 mb-lg-5">
               <div className="card h-100">
+                <div className="card-header h5 homeserve-medium fw-bold py-3">
+                  <i className="icon-hs-cross-outline icon-hs-1-5x text-primary me-2" aria-hidden="true" />
+                  What isn't covered:
+                </div>
                 <div className="card-body">
                   <ul>
                     {product.whatsNotCovered.map((item, index) => {

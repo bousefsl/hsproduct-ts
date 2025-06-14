@@ -1,21 +1,21 @@
-//Images
-import HSHouseLogoSVG from "../assets/images/hs-house-bg.svg"
 //Types
 import type { ProductProps } from "../types"
+//Styles
+import classes from "../assets/styles/getstartedchecklist.module.css"
 
 export default function GetStartedChecklist(product: ProductProps) {
   return (
-    <div className="get-started">
-      <section className="section-spacer">
+    <div className="get-started bg-light-gray-100">
+      <section className=" py-5">
         <div className="container-xl">
           <div className="row justify-content-center">
             <div className="col-md-10">
               <div>
                 <h2 className="text-center mb-5">Let's get started</h2>
-                <ul className="mb-4">
+                <ul className="mb-4 list-unstyled">
                   <li className="d-flex mb-3">
-                    <div style={{ backgroundImage: `url(${HSHouseLogoSVG})` }}>
-                      <span>1</span>
+                    <div className={`${classes["home-bg-marker"]} me-4`} style={{ backgroundImage: `url(/hs-house-bg.svg)` }}>
+                      <span className={classes["home-bg-no"]}>1</span>
                     </div>
                     <div>
                       <p className="h4 homeserve-thick mb-1">First, check you're not covered elsewhere</p>
@@ -23,8 +23,8 @@ export default function GetStartedChecklist(product: ProductProps) {
                     </div>
                   </li>
                   <li className="d-flex mb-3">
-                    <div style={{ backgroundImage: `url(${HSHouseLogoSVG})` }}>
-                      <span>2</span>
+                    <div className={`${classes["home-bg-marker"]} me-4`} style={{ backgroundImage: `url(/hs-house-bg.svg)` }}>
+                      <span className={classes["home-bg-no"]}>2</span>
                     </div>
                     <div>
                       <p className="h4 homeserve-thick mb-1">Check you're eligible - this cover is for {product.eligibilityOwner} only</p>
@@ -32,8 +32,8 @@ export default function GetStartedChecklist(product: ProductProps) {
                     </div>
                   </li>
                   <li className="d-flex mb-3">
-                    <div style={{ backgroundImage: `url(${HSHouseLogoSVG})` }}>
-                      <span>3</span>
+                    <div className={`${classes["home-bg-marker"]} me-4`} style={{ backgroundImage: `url(/hs-house-bg.svg)` }}>
+                      <span className={classes["home-bg-no"]}>3</span>
                     </div>
                     <div>
                       <p className="h4 homeserve-thick mb-1">Don't forget to read the policy documents</p>

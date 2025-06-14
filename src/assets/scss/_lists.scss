@@ -1,24 +1,51 @@
-ul.included, ul.excluded {
-    padding-left: 1rem;
+ul {
+    & > li::marker {
+        color: $teal-900;
+    }
 
-    & > li {
-        list-style: none; padding-left: 0.5rem;
+    &.included, &.excluded, &.crosses {
+        & > li {
+            list-style: none; padding-left: 0.5rem; font-weight: 600;
 
-        &::marker {
-            font-family: "HomeServe-Icons"; font-size: 1.2rem;
+            &::marker {
+                font-family: "HomeServe-Icons"; font-size: 1.2rem;
+            }
+        }
+    }
+
+    &.included {
+        & > li {
+            &::marker {content: "\e922"; color: $red-500;}
+        }
+        &.icons-success {
+            & > li {
+                &::marker {color: $success;}
+            }
+        }
+    }
+
+    &.excluded {
+        & > li {
+            &::marker {content: "\e931"; color: $gray-300;}
+        }
+    }
+
+    &.crosses {
+        & > li {
+            &::marker {content: "\e921"; color: $red-500;}
         }
     }
 }
 
-ul.included > li {
-    font-weight: 600;
-
-    &::marker {content: "\e922"; color: $red;}
-}
-
-ul.excluded > li {
-    color: $gray-500;
-
-    &::marker {content: "\e931"; color: $gray-300;
+//Comparison Pages Lists
+.comparison-card {
+    & ul {
+        padding-left: 1rem;
+        
+        .excluded {
+            & > li {
+                font-weight: normal !important; color: $gray-500;
+            }
+        }
     }
 }

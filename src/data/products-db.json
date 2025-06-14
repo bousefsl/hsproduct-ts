@@ -14,8 +14,8 @@
     "secondYearAnnualCost": 190.32,
     "insuranceFor": ["Homeowners", "People who only want cover for their home's plumbing and drainage"],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-plumbing-drainage-plus-cover",
     "whatsCovered": ["Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps"],
     "whatsNotCovered": ["A boiler breakdown that leaves you without heating or hot water", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers"],
     "eligibilityOwner": "homeowners",
@@ -79,13 +79,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -111,8 +105,8 @@
     "secondYearAnnualCost": 292.68,
     "insuranceFor": ["Homeowners", "People who only want cover for their home's plumbing and electrics"],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-plumbing-electrics-cover",
     "whatsCovered": ["Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Failed wiring", "A breakdown of your fuse box", "Broken power sockets or switches", "Faults on the electric shower unit"],
     "whatsNotCovered": ["A boiler breakdown that leaves you without heating or hot water", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Household appliances"],
     "eligibilityOwner": "homeowners",
@@ -176,13 +170,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -208,8 +196,8 @@
     "secondYearAnnualCost": 572.76,
     "insuranceFor": ["Homeowners whose properties are heated with natural gas", "People who want cover for their home's gas boiler, central heating and plumbing"],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-heating-plumbing-cover-service",
     "whatsCovered": ["No heating or hot water due to a boiler breakdown", "Repairing the boiler controls and components", "Repairing a leak within your central heating system", "A leaking gas supply pipe", "A gas boiler service", "Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Replacement of your boiler where it is beyond repair"],
     "whatsNotCovered": ["The gas pipe leading into your meter", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Installation costs (parts, labour and VAT) where the boiler is aged 7 years or over"],
     "eligibilityOwner": "homeowners",
@@ -273,13 +261,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -305,8 +287,8 @@
     "secondYearAnnualCost": 645.96,
     "insuranceFor": ["Homeowners whose properties are heated with natural gas", "People who want cover for their home's plumbing, gas boiler, central heating and electrics"],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-heating-plumbing-electrics-cover-service",
     "whatsCovered": ["No heating or hot water due to a boiler breakdown", "Repairing the boiler controls and components", "Repairing a leak within your central heating system", "A leaking gas supply pipe", "Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Failed wiring", "A breakdown of the fuse box", "Broken light switches", "Faults on the electric shower unit", "A gas boiler service", "Replacement of your boiler where it is beyond repair"],
     "whatsNotCovered": ["The gas pipe leading into your meter", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Household appliances", "Installation costs (parts, labour and VAT) where the boiler is aged 7 years or over"],
     "eligibilityOwner": "homeowners",
@@ -370,13 +352,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -402,8 +378,8 @@
     "secondYearAnnualCost": 713.16,
     "insuranceFor": ["Homeowners whose properties are heated with natural gas", "People who want comprehensive cover for their home's plumbing, gas boiler, central heating and electrics, plus cover for security problems and pest infestations."],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-heating-plumbing-electrics-plus-cover-service",
     "whatsCovered": ["No heating or hot water due to a boiler breakdown", "Repairing the boiler controls and components", "Repairing a leak within your central heating system", "A leaking gas supply pipe", "Leaking pipes within your home", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Failed wiring", "A breakdown of the fuse box", "Broken light switches", "Faults on the electric shower unit", "Lost keys to your external doors", "Protecting a damaged roof", "Boarding up a broken window", "Rats or mice inside your home", "Wasps or hornets in your home or garden", "A gas boiler service", "Replacement of your boiler where it is beyond repair"],
     "whatsNotCovered": ["The gas pipe leading into your meter", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Household appliances", "Any pest outside, other than a wasp or hornet nest", "Installation costs (parts, labour and VAT) where the boiler is aged 7 years or over"],
     "eligibilityOwner": "homeowners",
@@ -467,13 +443,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -499,8 +469,8 @@
     "secondYearAnnualCost": 300,
     "insuranceFor": ["Homeowners whose properties are heated with natural gas", "People who want cover for their home's gas boiler"],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-gas-boiler-cover-service",
     "whatsCovered": ["A boiler breakdown that leaves you without heating or hot water", "Repairs to your boiler's controls and components", "A leaking gas supply pipe", "A gas boiler service", "Replacement of your boiler where it is beyond repair"],
     "whatsNotCovered": ["Faulty radiators", "Water pipes, tanks and cylinders external to your boiler", "The gas pipe leading into your meter", "Installation costs (parts, labour and VAT) where the boiler is aged 7 years or over"],
     "eligibilityOwner": "homeowners",
@@ -564,13 +534,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -596,8 +560,8 @@
     "secondYearAnnualCost": 434.28,
     "insuranceFor": ["Homeowners whose properties are heated with natural gas", "People who want cover for their home's gas boiler and central heating"],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-gas-boiler-and-central-heating-cover-service",
     "whatsCovered": ["A boiler breakdown that leaves you without heating and hot water", "Repairs to your boiler's controls and components", "A repair of a leak inside your central heating system", "A gas boiler service", "A leaking gas supply pipe", "Replacement of your boiler where it is beyond repair"],
     "whatsNotCovered": ["Plumbing and/or drainage problems", "The gas pipe leading into your meter", "Installation costs (parts, labour and VAT) where the boiler is aged 7 years or over"],
     "eligibilityOwner": "homeowners",
@@ -661,13 +625,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -693,8 +651,8 @@
     "secondYearAnnualCost": 102.36,
     "insuranceFor": ["Homeowners", "People who only want cover for their home's electrics"],
     "insuranceNotFor": ["Landlords"],
-    "insuranceNotForLinkRequired": false,
-    "insuranceNotForLink": "",
+    "insuranceNotForLinkRequired": true,
+    "insuranceNotForLink": "/products/landlords-electrics-cover",
     "whatsCovered": ["Failed wiring", "A breakdown of your fuse box", "Broken power sockets or switches", "Faults on the electric shower unit", "A leaking gas supply pipe", "Replacement of your boiler where it is beyond repair"],
     "whatsNotCovered": ["Plumbing and/or drainage problems", "The gas pipe leading into your meter", "Unlimited number of claims"],
     "eligibilityOwner": "homeowners",
@@ -752,13 +710,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -843,12 +795,7 @@
       {
         "expandedonLoad": false,
         "header": "Will my cover automatically renew after the first year?",
-        "response": [
-          "It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.",
-          "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.",
-          "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.",
-          "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."
-        ],
+        "response": ["It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.", "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.", "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.", "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."],
         "bulletresponse": []
       },
       {
@@ -860,13 +807,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -951,12 +892,7 @@
       {
         "expandedonLoad": false,
         "header": "Will my cover automatically renew after the first year?",
-        "response": [
-          "It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.",
-          "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.",
-          "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.",
-          "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."
-        ],
+        "response": ["It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.", "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.", "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.", "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."],
         "bulletresponse": []
       },
       {
@@ -968,13 +904,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -1059,12 +989,7 @@
       {
         "expandedonLoad": false,
         "header": "Will my cover automatically renew after the first year?",
-        "response": [
-          "It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.",
-          "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.",
-          "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.",
-          "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."
-        ],
+        "response": ["It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.", "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.", "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.", "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."],
         "bulletresponse": []
       },
       {
@@ -1076,13 +1001,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -1167,12 +1086,7 @@
       {
         "expandedonLoad": false,
         "header": "Will my cover automatically renew after the first year?",
-        "response": [
-          "It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.",
-          "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.",
-          "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.",
-          "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."
-        ],
+        "response": ["It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.", "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.", "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.", "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."],
         "bulletresponse": []
       },
       {
@@ -1184,13 +1098,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -1218,31 +1126,7 @@
     "insuranceNotFor": ["Landlords who want comprehensive cover for their tenanted property's plumbing, gas boiler, central heating and electrics, plus cover for security problems and pest infestations"],
     "insuranceNotForLinkRequired": false,
     "insuranceNotForLink": "",
-    "whatsCovered": [
-      "No heating or hot water due to a boiler breakdown",
-      "Repairing the boiler controls and components",
-      "Repairing a leak within your central heating system",
-      "A leaking gas supply pipe",
-      "Replacement of your boiler where it is beyond repair",
-      "A gas boiler service",
-      "A gas safety inspection",
-      "Leaking pipes within your property",
-      "Blocked drains",
-      "Blockages to sinks and toilets",
-      "Leaks or blockages to your water supply pipe",
-      "Dripping or seized taps",
-      "Failed wiring",
-      "A breakdown of the fuse box",
-      "Broken light switches",
-      "Faults on the electric shower unit",
-      "Lost keys to your external doors",
-      "Protecting a damaged roof",
-      "Boarding up a broken window",
-      "Rats or mice inside your home",
-      "Wasps or hornets in your home or garden",
-      "A gas boiler service",
-      "Replacement of your boiler where it is beyond repair"
-    ],
+    "whatsCovered": ["No heating or hot water due to a boiler breakdown", "Repairing the boiler controls and components", "Repairing a leak within your central heating system", "A leaking gas supply pipe", "Replacement of your boiler where it is beyond repair", "A gas boiler service", "A gas safety inspection", "Leaking pipes within your property", "Blocked drains", "Blockages to sinks and toilets", "Leaks or blockages to your water supply pipe", "Dripping or seized taps", "Failed wiring", "A breakdown of the fuse box", "Broken light switches", "Faults on the electric shower unit", "Lost keys to your external doors", "Protecting a damaged roof", "Boarding up a broken window", "Rats or mice inside your home", "Wasps or hornets in your home or garden", "A gas boiler service", "Replacement of your boiler where it is beyond repair"],
     "whatsNotCovered": ["The gas pipe leading into your meter", "Guttering", "Soakaways", "Shared drains, or drains and pipes you're not responsible for", "Mixer and digital showers", "Household appliances", "Installation costs (parts, labour and VAT) where the boiler is aged 7 years or over"],
     "eligibilityOwner": "landlords",
     "eligibilityOwnerPropertyCover": "flats, apartments, ",
@@ -1299,12 +1183,7 @@
       {
         "expandedonLoad": false,
         "header": "Will my cover automatically renew after the first year?",
-        "response": [
-          "It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.",
-          "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.",
-          "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.",
-          "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."
-        ],
+        "response": ["It's your choice - you're in control! We'll set your cover to automatically renew so it continues uninterrupted and gives you peace of mind that your rental property is always protected in the event of a problem. It also saves you time, as you won't need to contact us to renew each year.", "But, if this isn't for you, you can quickly opt out of auto renewal when you apply for cover, or at any time by contacting us. If you opt out, you'll need to contact us if you want to renew for another year, so we can be there for you if something goes wrong.", "Whichever option you choose, we'll send you a reminder around 4 weeks before your renewal date with your new price, so you've got all the information you need to hand.", "Just to note, opting out of auto renewal doesn't cancel your policy. If you decide your cover is no longer right for you, you'll need to get in touch to let us know."],
         "bulletresponse": []
       },
       {
@@ -1316,13 +1195,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -1413,13 +1286,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -1510,13 +1377,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {
@@ -1601,13 +1462,7 @@
       {
         "expandedonLoad": false,
         "header": "Who provides this insurance?",
-        "response": [
-          "This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
-          "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:",
-          "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.",
-          "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.",
-          "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."
-        ],
+        "response": ["This policy is sold, arranged and administered by HomeServe and underwritten by Aviva Insurance Limited. Aviva Insurance Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.", "Aviva Insurance Limited is registered in Scotland as company number 2116. Its registered address is:", "Pitheavlis,<br> Perth,<br> Scotland,<br> PH2 0NH.", "HomeServe is an insurance intermediary and arranges and administers cover on behalf of the underwriter. HomeServe is a trading name of HomeServe Membership Limited. Authorised and regulated by the Financial Conduct Authority for its general insurance activities. Registered in England and Wales, number 2770612. Registered office: Cable Drive, Walsall, WS2 7BN. VAT registration number GB 559669669.", "The regulatory status of Aviva Insurance Limited and HomeServe can be checked on the Financial Conduct Authority's <a href=\"#\" target=\"_blank\" rel=\"noreferrer\">Financial Services Register <i aria-hidden=\"true\" class=\"icon-hs-open-in-new ms-1\"></i><span class=\"visually-hidden\"> opens a new window</span></a>."],
         "bulletresponse": []
       },
       {

@@ -140,6 +140,7 @@ $teals: (
 $primary: $red !default;
 $secondary: $white !default;
 $info: $blue !default;
+$success: $teal-800 !default;
 $light: $gray-50 !default;
 $dark: $gray-950 !default;
 // scss-docs-end theme-color-variables
@@ -149,6 +150,7 @@ $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
   "info": $info,
+  "success": $success,
   "light": $light,
   "dark": $dark,
   "gray": $gray-500,
@@ -249,3 +251,15 @@ $btn-border-width: 0.125rem;
 $btn-disabled-opacity:        .4 !default;
 
 // scss-docs-end btn-variables
+
+// Accordion
+
+// scss-docs-start accordion-variables
+$accordion-button-color:            $blue-900;
+$accordion-button-active-bg:        $red-200;
+$accordion-button-active-color:     $blue-800;
+$accordion-button-focus-box-shadow: 0 0 0 0.25rem rgba(0, 120, 159, 0.35);
+
+$accordion-icon-color:              $red-700;
+$accordion-icon-active-color:       $accordion-icon-color;
+// scss-docs-end accordion-variables

@@ -1,0 +1,36 @@
+//React Router
+import { Link, useNavigate } from "react-router"
+
+export default function NotFound() {
+  const navigate = useNavigate()
+
+  return (
+    <section className="section-spacer section-top">
+      <div className="container-xl">
+        <div className="row">
+          <div className="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            <div className="text-start text-xl-center mb-5">
+              <h1 className="mb-5">Oops! Something went wrong...</h1>
+              <p className="lead homeserve-thin fw-mediumbold mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatem. Ab saepe eveniet perspiciatis maiores voluptatem minus aliquam, sequi temporibus, vel.</p>
+              <div className="d-grid gap-2 d-md-block">
+                <Link to="/" className="btn btn-primary me-md-2">
+                  Home
+                </Link>
+                <Link
+                  to={".."}
+                  className="btn btn-secondary"
+                  onClick={(e) => {
+                    e.preventDefault()
+                    navigate(-1)
+                  }}
+                >
+                  Go back
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

@@ -1,3 +1,11 @@
+//Metadata
+export type MetaTagProps = {
+  title: string
+  keywords: string
+  description: string
+  name: string
+}
+
 //Comparison Page - Data & Cards
 export type CompProductProps = {
   productCategory: string

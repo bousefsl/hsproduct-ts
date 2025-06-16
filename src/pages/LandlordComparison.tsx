@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react"
 import { Form, useLoaderData } from "react-router"
 //Components
 import LandlordComparisonCard from "../components/LandlordComparisonCard"
+import MetaTags from "../components/global/MetaTags"
 //Loaders
 import { landlordComparisonProductsLoader } from "../loaders/comparison-products"
 //Types
@@ -29,6 +30,9 @@ export default function LandlordComparison() {
         <div className="row">
           <div className="col">
             <h1>Compare landlord's {productCategory.toLowerCase()} cover</h1>
+            {/* SEO */}
+            <MetaTags title={`HS Landlord's Comparison | ${productCategory}`} keywords="lorem, ipsum, sit, dolor, amet" description="Lorem ipsum sit dolor amet" name="Scott" />
+            {/* SEO -- End */}
 
             <Form className="my-5">
               <div className="row">

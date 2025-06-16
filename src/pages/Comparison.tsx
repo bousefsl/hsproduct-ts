@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react"
 import { Form, useLoaderData } from "react-router"
 //Components
 import ComparisonCard from "../components/ComparisonCard"
+import MetaTags from "../components/global/MetaTags"
 //Loaders
 import { comparisonProductsLoader } from "../loaders/comparison-products"
 //Types
@@ -29,6 +30,9 @@ export default function Comparison() {
         <div className="row">
           <div className="col">
             <h1>Compare {productCategory.toLowerCase()} cover</h1>
+            {/* SEO */}
+            <MetaTags title={`HS Comparison | ${productCategory}`} keywords="lorem, ipsum, sit, dolor, amet" description="Lorem ipsum sit dolor amet" name="Scott" />
+            {/* SEO -- End */}
 
             <Form className="my-5">
               <div className="row">

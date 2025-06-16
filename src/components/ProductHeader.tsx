@@ -1,3 +1,4 @@
+import { Fragment } from "react/jsx-runtime"
 //React Router
 import { Link } from "react-router"
 //Types
@@ -16,7 +17,7 @@ export default function ProductHeader(product: ProductProps) {
             <div className="col-md-6">
               <div>
                 <h1 className="mb-4">{product.title}</h1>
-                <div>
+                <div className="mb-5">
                   {product.productParagraph.map((item, index) => {
                     return (
                       <p key={index} className="col-lg-10 mb-4">
@@ -33,24 +34,36 @@ export default function ProductHeader(product: ProductProps) {
               </div>
             </div>
             <div className="col-md-6">
-              <div>
-                <div className="card text-bg-dark-gray-700 px-sm-2 px-lg-5 ms-lg-5">
-                  <div className="card-body text-white text-center">
-                    <p>
-                      <span className="h1">{formatCurrency(product.monthlyCost)}</span> <br />a month in your first year
-                    </p>
-                    <div className="row mb-3">
-                      <div className="col-md-6">
-                        <p className="h5 homeserve-medium">
-                          Annual price:
-                          <br /> {formatCurrency(product.annualCost)}
+              <div className="product-costing">
+                <div className="card text-bg-dark-gray-700 mx-sm-5 mx-md-0 ms-lg-5">
+                  {product.hasOffer ? <div className="card-header">{product.hasOfferContent}</div> : <Fragment></Fragment>}
+                  <div className="card-body">
+                    <div className="d-flex mb-1">
+                      <div>
+                        <p className="h4 homeserve-medium fw-bold">Monthly cost:</p>
+                      </div>
+                      <div className="ms-auto">
+                        <p className="text-end">
+                          <span className="h3 homeserve-medium fw-bold">{formatCurrency(product.monthlyCost)}</span> <br />
+                          (in your first year)
                         </p>
                       </div>
-                      <div className="col-md-6">
-                        <p className="h5 homeserve-medium">
-                          Your excess:
-                          <br /> {formatCurrency(product.excessCost)}
-                        </p>
+                    </div>
+                    <hr />
+                    <div className="d-flex mb-1">
+                      <div>
+                        <p className="h5 homeserve-thin fw-bold">Annual price:</p>
+                      </div>
+                      <div className="ms-auto">
+                        <p className="h5 homeserve-thin fw-bold text-end">{formatCurrency(product.annualCost)}</p>
+                      </div>
+                    </div>
+                    <div className="d-flex mb-3">
+                      <div>
+                        <p className="h5 homeserve-thin fw-bold">Your excess:</p>
+                      </div>
+                      <div className="ms-auto">
+                        <p className="h5 homeserve-thin fw-bold text-end">{formatCurrency(product.excessCost)}</p>
                       </div>
                     </div>
                     <p className="text-center">

@@ -56,13 +56,18 @@ export default function Comparison() {
               </div>
             </Form>
 
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4">
+            <div className="row g-4">
               {products.length > 0 ? (
                 products.map((product: CompProductProps) => {
                   return <ComparisonCard key={product.id} {...product} />
                 })
               ) : (
-                <div>Sorry, but there isn't anything matching. Please try again.</div>
+                <div className="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                  <div className="text-center lead fw-bold">
+                    <i className="icon-hs-cross-outline icon-hs-2x text-danger me-2" aria-hidden="true"></i>
+                    Sorry, but there isn't anything matching. Please try again.
+                  </div>
+                </div>
               )}
             </div>
           </div>

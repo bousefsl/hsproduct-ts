@@ -29,9 +29,9 @@ export default function LandlordComparison() {
       <div className="container-xl">
         <div className="row">
           <div className="col">
-            <h1>Compare landlord's {productCategory.toLowerCase()} cover</h1>
+            <h1>{landlordproducts.length > 0 ? `Compare landlord's ${landlordproducts[0].productCategory.toLowerCase()} cover` : "Oops! Something went wrong..."}</h1>
             {/* SEO */}
-            <MetaTags title={`HS Landlord's Comparison | ${productCategory}`} keywords="lorem, ipsum, sit, dolor, amet" description="Lorem ipsum sit dolor amet" name="Scott" />
+            <MetaTags title={landlordproducts.length > 0 ? `HS Landlord's Comparison | ${landlordproducts[0].productCategory}` : "HS Landlord's Comparison | Error"} keywords="lorem, ipsum, sit, dolor, amet" description="Lorem ipsum sit dolor amet" name="Scott" />
             {/* SEO -- End */}
 
             <Form className="my-5">

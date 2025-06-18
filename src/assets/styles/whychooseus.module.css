@@ -1,0 +1,84 @@
+.wcu-wrapper {
+  border-top: 0.5rem solid #e62419;
+  padding-top: 3rem;
+}
+.wcu-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.wcu-list {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.wcu-img-item {
+  width: 5rem;
+  max-height: 5.625rem;
+}
+
+@media (min-width: 576px) {
+  .wcu-header {
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+  .wcu-list {
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .wcu-header {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .wcu-list {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .wcu-wrapper {
+    background-image: url("../../assets/images/house-masked-engineer.jpg");
+    background-repeat: no-repeat;
+    background-position: right -140px center;
+    background-size: 35%;
+  }
+  .wcu-header {
+    flex: 0 1 33%;
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+  .wcu-list {
+    flex: 0 1 42%;
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+  .wcu-img-item {
+    width: 5.625rem;
+    max-height: 5.625rem;
+  }
+}
+@media (min-width: 1200px) {
+  .wcu-wrapper {
+    background-position: right -110px center;
+    background-size: 32%;
+  }
+  .wcu-header {
+    flex: 0 1 33%;
+    padding-right: 1rem;
+  }
+  .wcu-list {
+    flex: 0 1 42%;
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .wcu-wrapper {
+    background-position: right -90px center;
+    background-size: 25%;
+  }
+  .wcu-header {
+    flex: 0 1 33%;
+    padding-right: 3rem;
+  }
+}

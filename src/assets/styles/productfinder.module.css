@@ -1,0 +1,102 @@
+.product-wrapper {
+  background-color: #666;
+  color: #fff;
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+  text-align: center;
+  margin-top: -2rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.col-bg {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.4rem;
+}
+.col-border {
+  border-right: 1px solid #bbb;
+}
+
+.btn-product-finder {
+  background-color: #fff;
+  color: #333 !important;
+  width: 100%;
+  font-family: "museo-500", Arial, sans-serif !important;
+  font-weight: bold !important;
+  font-size: 0.875rem !important;
+  text-align: left !important;
+  padding-left: 0.625rem !important;
+  padding-bottom: 0.5rem !important;
+  border-radius: 0 !important;
+}
+
+.btn-product-finder:hover,
+.btn-product-finder:focus,
+.btn-product-finder:active,
+.btn-product-finder.active,
+.btn-product-finder:visited,
+.btn-product-finder:focus-within,
+.btn-product-finder:focus-visible,
+.btn-product-finder.show {
+  border-color: #e62419 !important;
+}
+
+.btn-product-finder[data-bs-toggle="dropdown"][aria-expanded="false"]::after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: all ease 0.5s;
+}
+.btn-product-finder[data-bs-toggle="dropdown"][aria-expanded="true"]::after {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: all ease 0.5s;
+}
+.btn-product-finder::after {
+  font-family: "HomeServe-Icons";
+  font-size: 1.5rem;
+  content: "\e976" !important;
+  color: #333;
+  position: absolute;
+  top: 0.25rem;
+  right: 0;
+  border: none !important;
+}
+
+@media (min-width: 576px) {
+  .btn-product-finder::after {
+    right: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .btn-product-finder::after {
+    right: 0.25rem;
+  }
+}
+@media (min-width: 1400px) {
+  .btn-product-finder::after {
+    right: 1rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn-product-finder {
+    white-space: pre-wrap !important;
+  }
+}
+
+.dd-menu {
+  width: 100%;
+  border-radius: 0.5rem !important;
+}
+
+.dd-item {
+  font-family: "museo-500", Arial, sans-serif !important;
+  font-weight: bold;
+  transition: all 0.15s ease-in;
+}
+
+.dd-item:hover,
+.dd-item:focus {
+  background-color: #0087b4 !important;
+  color: #fff !important;
+}

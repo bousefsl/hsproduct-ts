@@ -1,4 +1,6 @@
 .navbar {
+  border-bottom: 0.125rem solid $white; box-shadow: $box-shadow;
+
   & .offcanvas-lg {
     padding: 1rem;
 

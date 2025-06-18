@@ -4,6 +4,7 @@ import { Form, useLoaderData } from "react-router"
 //Components
 import LandlordComparisonCard from "../components/LandlordComparisonCard"
 import MetaTags from "../components/global/MetaTags"
+import { Button } from "../components/global/Button"
 //Loaders
 import { landlordComparisonProductsLoader } from "../loaders/comparison-products"
 //Types
@@ -48,9 +49,7 @@ export default function LandlordComparison() {
                         )
                       })}
                     </select>
-                    <button className="btn btn-primary" id="filter-button">
-                      Filter
-                    </button>
+                    <Button id="filter-button">Filter</Button>
                   </div>
                 </div>
               </div>

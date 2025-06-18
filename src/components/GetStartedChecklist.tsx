@@ -6,7 +6,7 @@ import classes from "../assets/styles/getstartedchecklist.module.css"
 export default function GetStartedChecklist(product: ProductProps) {
   return (
     <div className="get-started bg-light-gray-100">
-      <section className=" py-5">
+      <section className="section-spacer py-5">
         <div className="container-xl">
           <div className="row justify-content-center">
             <div className="col-md-10">

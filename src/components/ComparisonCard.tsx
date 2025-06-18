@@ -1,7 +1,7 @@
 import { useRef } from "react"
 import { Fragment } from "react/jsx-runtime"
-//React Router
-import { Link } from "react-router"
+//Components
+import ButtonLink from "./global/ButtonLink"
 //Types
 import type { CompProductProps } from "../types"
 //Utilities
@@ -67,9 +67,9 @@ export default function ComparisonCard({ title, monthlyCost, excessCost, inclusi
             </div>
           </div>
           <div className="text-center">
-            <Link to={`../products/${policyLink}`} className="btn btn-secondary">
+            <ButtonLink toLink={`../products/${policyLink}`} variant="secondary">
               View policy details
-            </Link>
+            </ButtonLink>
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ import MetaTags from "../components/global/MetaTags"
 import { comparisonProductsLoader } from "../loaders/comparison-products"
 //Types
 import type { CompProductProps } from "../types"
+import { Button } from "../components/global/Button"
 
 export default function Comparison() {
   //Array to map through to generate the "productCategory" <select> options (checks against the "coverState.cover" value above)
@@ -48,9 +49,7 @@ export default function Comparison() {
                         )
                       })}
                     </select>
-                    <button className="btn btn-primary" id="filter-button">
-                      Filter
-                    </button>
+                    <Button id="filter-button">Filter</Button>
                   </div>
                 </div>
               </div>

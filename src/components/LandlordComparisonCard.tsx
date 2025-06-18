@@ -1,9 +1,9 @@
 import { useRef } from "react"
 import { Fragment } from "react/jsx-runtime"
+//Components
+import ButtonLink from "./global/ButtonLink"
 //Types
 import type { LandlordCompProductProps } from "../types"
-//React Router
-import { Link } from "react-router"
 //Utilities
 import formatCurrency from "../utilities/formatCurrency"
 //Hooks
@@ -66,9 +66,9 @@ export default function LandlordComparisonCard({ title, monthlyCost, inclusions,
             </div>
           </div>
           <div className="text-center">
-            <Link to={`../products/${policyLink}`} className="btn btn-secondary">
+            <ButtonLink toLink={`../products/${policyLink}`} variant="secondary">
               View policy details
-            </Link>
+            </ButtonLink>
           </div>
         </div>
       </div>

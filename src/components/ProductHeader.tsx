@@ -5,6 +5,7 @@ import { Link } from "react-router"
 import type { ProductProps } from "../types"
 //Utilities
 import formatCurrency from "../utilities/formatCurrency"
+import ButtonLink from "./global/ButtonLink"
 
 export default function ProductHeader(product: ProductProps) {
   //console.log(product)
@@ -26,9 +27,7 @@ export default function ProductHeader(product: ProductProps) {
                     )
                   })}
                   <p className="col">
-                    <Link to="/" className="btn btn-primary">
-                      Apply now
-                    </Link>
+                    <ButtonLink toLink="/">Apply now</ButtonLink>
                   </p>
                 </div>
               </div>

@@ -1,9 +1,10 @@
 //Components
-import DiyAdvice from "../components/DiyAdvice"
 import MetaTags from "../components/global/MetaTags"
-import WhyChooseUs from "../components/global/WhyChooseUs"
 import HomeHeroBanner from "../components/HomeHeroBanner"
 import ProductsServices from "../components/ProductsServices"
+import WhyChooseUs from "../components/global/WhyChooseUs"
+import DiyAdvice from "../components/DiyAdvice"
+import { Smallprint, SmallprintBody } from "../components/global/Smallprint"
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       <ProductsServices />
       <WhyChooseUs />
       <DiyAdvice />
+      <Smallprint>
+        <SmallprintBody>* Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore, blanditiis assumenda doloremque, dignissimos officia id omnis cum sapiente in illo ipsum delectus dicta accusantium aspernatur culpa numquam sunt aliquid.</SmallprintBody>
+      </Smallprint>
     </>
   )
 }

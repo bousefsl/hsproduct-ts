@@ -36,7 +36,7 @@ export default function DiyAdvice() {
   ]
   return (
     <div className="diy-hacks">
-      <section className="section-spcer">
+      <section className="section-spacer">
         <div className="container-xl">
           <div className="row">
             <div className="col">

@@ -1,4 +1,5 @@
 //Components
+import DiyAdvice from "../components/DiyAdvice"
 import MetaTags from "../components/global/MetaTags"
 import WhyChooseUs from "../components/global/WhyChooseUs"
 import HomeHeroBanner from "../components/HomeHeroBanner"
@@ -13,6 +14,7 @@ export default function Home() {
       <HomeHeroBanner />
       <ProductsServices />
       <WhyChooseUs />
+      <DiyAdvice />
     </>
   )
 }

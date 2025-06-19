@@ -1,9 +1,9 @@
 .card {
-    background-color: $white;
+    background-color: $white; border-color: $cool-gray;
 }
 
 .comparison-card {
-    padding: 1rem 1rem 2rem; border-color: $cool-gray;
+    padding: 1rem 1rem 2rem;
 
     @media screen and (min-width: 400px) {
         margin-left: 3rem; margin-right: 3rem;

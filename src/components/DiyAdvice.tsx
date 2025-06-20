@@ -10,24 +10,28 @@ import BoilerProblemsImg from "../assets/images/common-boiler-problems.jpg"
 export default function DiyAdvice() {
   const diyCards = [
     {
+      id: 1,
       cardImg: OverflowPipeImg,
       cardBodyContent: "Plumbing advice • Liam Sharkey",
       cardTitleContent: "How to stop your overflow pipe leaking",
       cardFooterContent: "24 Jan 2020 | 10 minutes",
     },
     {
+      id: 2,
       cardImg: BlockedToiletImg,
       cardBodyContent: "Plumbing advice • Chris Houghton",
       cardTitleContent: "How to unblock a toilet",
       cardFooterContent: "12 Apr 2017 | 8 minutes",
     },
     {
+      id: 3,
       cardImg: BoilerProblemsImg,
       cardBodyContent: "Boiler advice • Yasmin",
       cardTitleContent: "10 common boiler problems",
       cardFooterContent: "21 Apr 2024 | 7 minutes",
     },
     {
+      id: 4,
       cardImg: OutsideDrainImg,
       cardBodyContent: "Plumbing advice • Liam Sharkey",
       cardTitleContent: "How to stop your overflow pipe leaking",
@@ -53,7 +57,7 @@ export default function DiyAdvice() {
           <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
             {diyCards.map((card) => {
               return (
-                <div className="col">
+                <div key={card.id} className="col">
                   <Card otherClasses="h-100">
                     <CardImg imgSrc={card.cardImg} imgAlt="" />
                     <CardBody>

@@ -1,40 +1,109 @@
 .card {
     background-color: $white; border-color: $cool-gray;
-}
 
-.comparison-card {
-    padding: 1rem 1rem 2rem;
+    &.card-transparent {
+        background-color: transparent; border-color: transparent;
 
-    @media screen and (min-width: 400px) {
-        margin-left: 3rem; margin-right: 3rem;
+        & .card-footer {border-top: none; padding-top: 0;}
     }
 
-    @media screen and (min-width: 576px) {
-        margin-left: 0; margin-right: 0;
-    }
-
-    @media screen and (min-width: 992px) {
-        padding: 1.5rem 1.5rem 2rem;
-    }
-
-    @media screen and (min-width: 1024px) {
-        padding: 1.625rem 1.625rem 2.5rem;
-    }
-
-    & .card-header {
-        border: none; padding: 0; margin-bottom: 1rem; background-color: transparent; text-align: center;
-        font-family: $font-family-medium-stack; font-weight: bold; font-size: $font-size-base * 1.2; 
-    }
-
-    & .card-body {
-        font-weight: 500; padding-left: 1rem; padding-right: 1rem;
+    &.comparison-card {
+        padding: 1rem 1rem 2rem;
 
         @media screen and (min-width: 400px) {
-            padding-left: 2rem; padding-right: 2rem;
+            margin-left: 3rem; margin-right: 3rem;
         }
 
         @media screen and (min-width: 576px) {
-            padding-left: 0; padding-right: 0;
+            margin-left: 0; margin-right: 0;
+        }
+
+        @media screen and (min-width: 992px) {
+            padding: 1.5rem 1.5rem 2rem;
+        }
+
+        @media screen and (min-width: 1024px) {
+            padding: 1.625rem 1.625rem 2.5rem;
+        }
+
+        & .card-header {
+            border: none; padding: 0; margin-bottom: 1rem; background-color: transparent; text-align: center;
+            font-family: $font-family-medium-stack; font-weight: bold; font-size: $font-size-base * 1.2; 
+        }
+
+        & .card-body {
+            font-weight: 500; padding-left: 1rem; padding-right: 1rem;
+
+            @media screen and (min-width: 400px) {
+                padding-left: 2rem; padding-right: 2rem;
+            }
+
+            @media screen and (min-width: 576px) {
+                padding-left: 0; padding-right: 0;
+            }
+        }
+    }
+
+    &.scale-bg-img-card {
+        background-color: transparent !important; border: 0 !important; height: 320px; min-height: 320px; margin-bottom: 2rem;
+
+        @media (min-width:576px) {
+            height: 100% !important; min-height: 360px;
+        }
+
+        @media (min-width:768px) {
+            min-height: 420px;
+        }
+        
+        @media (min-width:992px) {
+            height: 100% !important;
+        }
+
+        & .scale-bg-img {
+            background-size: cover; background-repeat: no-repeat; background-position: center top; transition: all ease-out 0.3s;
+            height: inherit; border-radius: $border-radius; position: relative;
+
+            @media (min-width:992px) {
+                background-position: -50px;
+            }
+            
+            @media (min-width:1200px) {
+                background-size: 135%; background-position: center;
+            }
+
+            & .scale-img-gradient {
+                height: inherit; border-radius: $border-radius; transition: all ease-out 0.3s;
+
+                & .scale-bg-img-overlay {position: absolute; padding: 1rem;}
+            }
+
+            &.top {
+                & .scale-img-gradient {
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.8) 25%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%);
+
+                    & .scale-bg-img-overlay {
+                        top: 0
+                    }
+                }
+            }
+            &.bottom {
+                & .scale-img-gradient {
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.8) 75%, rgba(0,0,0,0.9) 100%);
+
+                    & .scale-bg-img-overlay {
+                        bottom: 0
+                    }
+                }
+            }
+        }
+
+        & a.scale-bg-img-link {
+            height: inherit; color: #fff;
+
+            &:hover, &:focus {
+                & .scale-bg-img {background-size: 125%;}
+                & .scale-img-gradient {background-color: rgba(0,0,0,0.5);}
+            }
         }
     }
 }

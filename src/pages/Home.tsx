@@ -5,6 +5,7 @@ import ProductsServices from "../components/ProductsServices"
 import WhyChooseUs from "../components/global/WhyChooseUs"
 import DiyAdvice from "../components/DiyAdvice"
 import { Smallprint, SmallprintBody } from "../components/global/Smallprint"
+import OurServices from "../components/global/OurServices"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HomeHeroBanner />
       <ProductsServices />
       <WhyChooseUs />
+      <OurServices />
       <DiyAdvice />
       <Smallprint>
         <SmallprintBody>* Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore, blanditiis assumenda doloremque, dignissimos officia id omnis cum sapiente in illo ipsum delectus dicta accusantium aspernatur culpa numquam sunt aliquid.</SmallprintBody>

@@ -1,0 +1,11 @@
+.os-wrapper {
+  background-image: url("../images/services-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.os-bg-img {
+  background-image: url("../images/services-boiler.jpg");
+}

@@ -2,7 +2,7 @@ import { useState } from "react"
 //React Router
 import { useNavigate } from "react-router"
 //Components
-import { Button } from "./global/Button"
+import { Button } from "./global/CTAs"
 //Styles
 import classes from "../assets/styles/productfinder.module.css"
 

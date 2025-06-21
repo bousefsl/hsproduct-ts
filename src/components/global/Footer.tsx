@@ -1,7 +1,7 @@
 //React Router
 import { Link } from "react-router"
 //Components
-import Anchor from "./Anchor"
+import { Anchor } from "./CTAs"
 //Styles
 import classes from "../../assets/styles/footer.module.css"
 //Images

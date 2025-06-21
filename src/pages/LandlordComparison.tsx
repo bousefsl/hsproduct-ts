@@ -4,7 +4,7 @@ import { Form, useLoaderData } from "react-router"
 //Components
 import LandlordComparisonCard from "../components/LandlordComparisonCard"
 import MetaTags from "../components/global/MetaTags"
-import { Button } from "../components/global/Button"
+import { Button } from "../components/global/CTAs"
 //Loaders
 import { landlordComparisonProductsLoader } from "../loaders/comparison-products"
 //Types

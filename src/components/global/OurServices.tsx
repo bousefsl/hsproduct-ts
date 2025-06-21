@@ -1,7 +1,6 @@
 //Components
 import { Card, CardBody, CardFooter, CardImg, CardText, CardTitle, ScaleBGImgCardOverlay, ScaleBGImgCardText, ScaleBGImgCardTitle } from "./Cards"
-import Anchor from "./Anchor"
-import ButtonLink from "./ButtonLink"
+import { Anchor, ButtonLink } from "./CTAs"
 //Styles
 import classes from "../../assets/styles/ourservices.module.css"
 //Images

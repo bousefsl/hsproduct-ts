@@ -1,7 +1,7 @@
 //React Router
 import { Link } from "react-router"
 //Components
-import ButtonLink from "../global/ButtonLink"
+import { ButtonLink } from "../global/CTAs"
 
 type SlideProps = {
   slideImg: string

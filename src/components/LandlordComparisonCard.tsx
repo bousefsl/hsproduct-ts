@@ -1,7 +1,7 @@
 import { useRef } from "react"
 import { Fragment } from "react/jsx-runtime"
 //Components
-import ButtonLink from "./global/ButtonLink"
+import { ButtonLink } from "./global/CTAs"
 //Types
 import type { LandlordCompProductProps } from "../types"
 //Utilities

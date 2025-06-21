@@ -1,6 +1,6 @@
 //Components
 import ProductFinder from "./ProductFinder"
-import ButtonLink from "./global/ButtonLink"
+import { ButtonLink } from "./global/CTAs"
 //Styles
 import classes from "../assets/styles/homehero.module.css"
 //Images

@@ -5,7 +5,7 @@ import { Link } from "react-router"
 import type { ProductProps } from "../types"
 //Utilities
 import formatCurrency from "../utilities/formatCurrency"
-import ButtonLink from "./global/ButtonLink"
+import { ButtonLink } from "./global/CTAs"
 
 export default function ProductHeader(product: ProductProps) {
   //console.log(product)

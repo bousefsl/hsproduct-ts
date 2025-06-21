@@ -1,5 +1,5 @@
 //Components
-import ButtonLink from "./ButtonLink"
+import { ButtonLink } from "./CTAs"
 //Styles
 import classes from "../../assets/styles/whychooseus.module.css"
 //Images

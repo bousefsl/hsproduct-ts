@@ -1,5 +1,5 @@
 //Components
-import Anchor from "./global/Anchor"
+import { Anchor } from "./global/CTAs"
 import { Card, CardBody, CardFooter, CardImg, CardTitle } from "./global/Cards"
 //Images
 import OverflowPipeImg from "../assets/images/leaking-overflow-pipe.jpg"

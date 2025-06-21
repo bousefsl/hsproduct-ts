@@ -60,3 +60,29 @@ export type faqProps = {
   response: string[]
   bulletresponse: string[]
 }
+
+//CTAs
+export type LinkProps = {
+  linkTo: string
+  linkTarget?: string
+  linkRel?: string //"noreferrer"
+  linkClass?: string
+  children: React.ReactNode
+}
+
+export type ButtonLinkProps = {
+  children: React.ReactNode
+  toLink: string
+  variant?: string
+  id?: string
+  otherClasses?: string
+  linkTarget?: string
+  linkRel?: string //"noreferrer"
+}
+
+export type ButtonProps = {
+  children: React.ReactNode
+  variant?: string
+  disabled?: boolean
+  id?: string
+}

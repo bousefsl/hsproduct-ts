@@ -4,11 +4,11 @@ import { Form, useLoaderData } from "react-router"
 //Components
 import ComparisonCard from "../components/ComparisonCard"
 import MetaTags from "../components/global/MetaTags"
+import { Button } from "../components/global/CTAs"
 //Loaders
 import { comparisonProductsLoader } from "../loaders/comparison-products"
 //Types
 import type { CompProductProps } from "../types"
-import { Button } from "../components/global/Button"
 
 export default function Comparison() {
   //Array to map through to generate the "productCategory" <select> options (checks against the "coverState.cover" value above)

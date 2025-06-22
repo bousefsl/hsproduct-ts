@@ -65,7 +65,7 @@ export default function WhyChooseUs() {
                 </div>
               </div>
               <div className={classes["wcu-list"]}>
-                <ul className="p-0">
+                <ul className="p-0 mb-5">
                   {wcuContent.map((item) => {
                     return <WhyChooseUsListItem key={item.id} {...item} />
                   })}

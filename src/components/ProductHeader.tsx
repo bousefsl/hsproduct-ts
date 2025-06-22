@@ -12,7 +12,7 @@ export default function ProductHeader(product: ProductProps) {
 
   return (
     <div className="product-header">
-      <section className="section-spacer section-top">
+      <section className="section-spacer section-spacer-top">
         <div className="container-xl">
           <div className="row">
             <div className="col-md-6">

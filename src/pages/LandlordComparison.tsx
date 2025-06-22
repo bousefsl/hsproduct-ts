@@ -26,7 +26,7 @@ export default function LandlordComparison() {
   }, [productCategory])
 
   return (
-    <section className="section-spacer section-top">
+    <section className="section-spacer section-spacer-top">
       <div className="container-xl">
         <div className="row">
           <div className="col">

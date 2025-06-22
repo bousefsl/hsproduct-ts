@@ -47,7 +47,7 @@ export default function DiyAdvice() {
               <h2 className="text-center">DIY advice and hacks articles</h2>
               <div className="row justify-content-center">
                 <div className="col-md-10 col-lg-8">
-                  <p className="homeserve-medium text-start text-md-center mb-5">
+                  <p className="text-start text-md-center mb-5">
                     With <Anchor linkTo="#">Knowledge Hub</Anchor>, whether it's home maintenance, help and guidance or even DIY tips, we've got everything you need to take on those smaller jobs at home.
                   </p>
                 </div>

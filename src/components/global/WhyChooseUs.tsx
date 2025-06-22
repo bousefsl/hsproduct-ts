@@ -53,7 +53,7 @@ export default function WhyChooseUs() {
               <div className={`d-flex align-items-center ${classes["wcu-header"]}`}>
                 <div className="mb-5">
                   <h2 className="h1">Why choose us?</h2>
-                  <p className="homeserve-medium mb-4">Whether it's 24/7 home emergency cover, a one-off repair, or new boiler, you can trust we'll take care of it.</p>
+                  <p className="mb-4">Whether it's 24/7 home emergency cover, a one-off repair, or new boiler, you can trust we'll take care of it.</p>
                   <div className="d-grid gap-2 d-md-block">
                     <ButtonLink toLink="#" otherClasses="me-md-2">
                       View cover

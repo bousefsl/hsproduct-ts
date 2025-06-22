@@ -34,7 +34,7 @@ export default function ComparisonCard({ title, monthlyCost, excessCost, inclusi
         <div className="card-header" ref={titleRef}>
           {title}
         </div>
-        <div className="card-body homeserve-medium">
+        <div className="card-body">
           <div className="text-center mb-4">
             <div className="h5 fw-bold">{formatCurrency(monthlyCost)} a month</div>
             <div>Excess: £{excessCost}</div>

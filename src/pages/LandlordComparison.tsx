@@ -38,7 +38,7 @@ export default function LandlordComparison() {
             <Form className="my-5">
               <div className="row">
                 <div className="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-                  <h2 className="h5 homeserve-medium fw-bold">Not the right cover type? Try another below...</h2>
+                  <h2 className="h5 fw-bold">Not the right cover type? Try another below...</h2>
                   <div className="input-group mb-3">
                     <select className="form-select" id="productCategory" name="productCategory" ref={productRef} defaultValue={productCategory} aria-label="Change your cover type" aria-describedby="filter-button">
                       {typeOfCoverArr.map((cover, index) => {

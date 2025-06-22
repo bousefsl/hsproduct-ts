@@ -97,7 +97,7 @@ export default function NavBar() {
                           <div className="col-lg-3 d-none d-lg-block h-auto">
                             <div className="p-3 bg-light-gray-100 h-100 rounded">
                               <p className="h2">We're a trusted name in home cover &amp; services</p>
-                              <p className="homeserve-medium text-gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                              <p className="text-gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                               <p>
                                 <Link to="#" className="btn btn-secondary">
                                   Our services
@@ -142,7 +142,7 @@ export default function NavBar() {
                                 Need help? <br />
                                 Let us turn that frown upside-down...
                               </p>
-                              <p className="homeserve-medium text-gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                              <p className="text-gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                           </div>
                           {helpNav.map((navItem) => {

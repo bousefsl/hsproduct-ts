@@ -18,7 +18,7 @@ export default function GetStartedChecklist(product: ProductProps) {
                       <span className={classes["home-bg-no"]}>1</span>
                     </div>
                     <div>
-                      <p className="h4 homeserve-thick mb-1">First, check you're not covered elsewhere</p>
+                      <p className="h4 fw-bold mb-1">First, check you're not covered elsewhere</p>
                       <p>This is to make sure you're not paying for cover you don't need.</p>
                     </div>
                   </li>
@@ -27,7 +27,7 @@ export default function GetStartedChecklist(product: ProductProps) {
                       <span className={classes["home-bg-no"]}>2</span>
                     </div>
                     <div>
-                      <p className="h4 homeserve-thick mb-1">Check you're eligible - this cover is for {product.eligibilityOwner} only</p>
+                      <p className="h4 fw-bold mb-1">Check you're eligible - this cover is for {product.eligibilityOwner} only</p>
                       <p>Cover for {product.eligibilityOwnerPropertyCover} mobile homes, park homes, business premises, council and housing association properties is not included in this policy.</p>
                     </div>
                   </li>
@@ -36,7 +36,7 @@ export default function GetStartedChecklist(product: ProductProps) {
                       <span className={classes["home-bg-no"]}>3</span>
                     </div>
                     <div>
-                      <p className="h4 homeserve-thick mb-1">Don't forget to read the policy documents</p>
+                      <p className="h4 fw-bold mb-1">Don't forget to read the policy documents</p>
                       <p>It's important that you read the Insurance Product Information Document and the Terms and Conditions before taking out the policy.</p>
                     </div>
                   </li>

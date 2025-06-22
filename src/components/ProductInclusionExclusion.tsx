@@ -9,7 +9,7 @@ export default function ProductInclusionExclusion(product: ProductProps) {
     <div className="product-inclusions-exclusions">
       <section className="section-spacer">
         <div className="container-xl">
-          <h2 className="homeserve-thick text-center mb-5">This insurance is for</h2>
+          <h2 className="text-center mb-5">This insurance is for</h2>
           <div className="row justify-content-center">
             <div className="col-md-5">
               <div className="px-2">
@@ -44,7 +44,7 @@ export default function ProductInclusionExclusion(product: ProductProps) {
           <div className="row justify-content-center">
             <div className="col-md-5 mb-4 mb-lg-5">
               <div className="card h-100">
-                <div className="card-header h5 homeserve-medium fw-bold py-3">
+                <div className="card-header h5 fw-bold py-3">
                   <i className="icon-hs-tick-outline icon-hs-1-5x text-success me-2" aria-hidden="true" />
                   What's covered:
                 </div>
@@ -59,7 +59,7 @@ export default function ProductInclusionExclusion(product: ProductProps) {
             </div>
             <div className="col-md-5 mb-4 mb-lg-5">
               <div className="card h-100">
-                <div className="card-header h5 homeserve-medium fw-bold py-3">
+                <div className="card-header h5 fw-bold py-3">
                   <i className="icon-hs-cross-outline icon-hs-1-5x text-primary me-2" aria-hidden="true" />
                   What isn't covered:
                 </div>

@@ -7,7 +7,7 @@ export default function NotFound() {
   const navigate = useNavigate()
 
   return (
-    <section className="section-spacer section-top">
+    <section className="section-spacer section-spacer-top">
       <div className="container-xl">
         <div className="row">
           <div className="col-sm-10 offset-sm-1 col-md-8 offset-md-2">

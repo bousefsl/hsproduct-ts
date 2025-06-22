@@ -4,7 +4,7 @@ type SmallprintChildrenProps = {
 
 export function Smallprint({ children }: SmallprintChildrenProps) {
   return (
-    <section className="section-spacer section-top">
+    <section className="section-spacer">
       <div className="container-xl">
         <div className="row">
           <div className="col">

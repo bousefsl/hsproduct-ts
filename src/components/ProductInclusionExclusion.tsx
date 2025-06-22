@@ -42,7 +42,7 @@ export default function ProductInclusionExclusion(product: ProductProps) {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-md-5 mb-4 mb-lg-5">
+            <div className="col-md-5 mb-3">
               <div className="card h-100">
                 <div className="card-header h5 fw-bold py-3">
                   <i className="icon-hs-tick-outline icon-hs-1-5x text-success me-2" aria-hidden="true" />
@@ -57,7 +57,7 @@ export default function ProductInclusionExclusion(product: ProductProps) {
                 </div>
               </div>
             </div>
-            <div className="col-md-5 mb-4 mb-lg-5">
+            <div className="col-md-5 mb-3">
               <div className="card h-100">
                 <div className="card-header h5 fw-bold py-3">
                   <i className="icon-hs-cross-outline icon-hs-1-5x text-primary me-2" aria-hidden="true" />

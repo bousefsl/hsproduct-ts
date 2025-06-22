@@ -9,7 +9,7 @@ import DOMPurify from "dompurify"
 export default function FAQs(product: ProductProps) {
   return (
     <div className="faqs">
-      <section className="section-spacer">
+      <section className="section-spacer section-spacer-top">
         <div className="container-xl">
           <div className="row justify-content-center">
             <div className="col-md-10">

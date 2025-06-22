@@ -61,7 +61,7 @@ export default function ProductFinder() {
         <div className="row">
           <div className="col-12">
             <div className={classes["product-wrapper"]}>
-              <p className="h4 homeserve-thin fw-bold mb-4">Need help? Let's find the right cover for you</p>
+              <p className="h4 fw-bold mb-4">Need help? Let's find the right cover for you</p>
               <form className={`row gx-3 gy-1 ${classes["col-bg"]}`} onSubmit={handleSubmit}>
                 <div className={`col-lg-3 ${classes["col-border"]}`}>
                   <div className="dropdown">

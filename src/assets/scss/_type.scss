@@ -1,5 +1,6 @@
 h1, .h1, h2, .h2, h3, .h3 {
-    font-family: $font-family-thick-stack; color: $dark; margin-bottom: 1.5rem;}
+    font-family: $font-family-extrathick-stack; color: $dark; margin-bottom: 1.5rem;}
+h4, .h4, h5, .h5 {font-family: $font-family-medium-stack; margin-bottom: 1.5rem;}
 
 h1, .h1 {font-size: $font-size-base *2;}
 h2, .h2 {font-size: $font-size-base * 1.5;}
@@ -18,3 +19,4 @@ h5, .h5 {font-size: $font-size-base;}
 }
 
 .smallprint {font-size: $font-size-base * 0.875;}
+.fw-bold {font-family: $font-family-thin-stack;}

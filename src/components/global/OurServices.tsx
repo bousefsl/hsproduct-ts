@@ -31,7 +31,7 @@ export default function OurServices() {
                     <ScaleBGImgCardOverlay bgImgStyle={classes["os-bg-img"]} otherClasses="bottom">
                       <ScaleBGImgCardTitle>Need a new boiler?</ScaleBGImgCardTitle>
                       <ScaleBGImgCardText>
-                        <p className="homeserve-medium">We're working together with BOXT to ensure you get the best boiler for your home.</p>
+                        <p>We're working together with BOXT to ensure you get the best boiler for your home.</p>
                         <p className="mb-0">
                           Get your new boiler quote <i aria-hidden="true" className="icon-hs-arrow-forward" />
                         </p>
@@ -48,8 +48,8 @@ export default function OurServices() {
                         <CardImg imgSrc={ServicesHeatPumpImg} imgAlt="Heat Pump Image" />
                       </Anchor>
                       <CardBody otherClasses="text-white px-0">
-                        <CardTitle otherClasses="lead homeserve-thick">Heat pump service plans</CardTitle>
-                        <CardText otherClasses="homeserve-medium">
+                        <CardTitle otherClasses="lead fw-bold">Heat pump service plans</CardTitle>
+                        <CardText>
                           <p>Air source heat pump service from a qualified engineer.</p>
                         </CardText>
                       </CardBody>
@@ -66,8 +66,8 @@ export default function OurServices() {
                         <CardImg imgSrc={ServicesRepairsImg} imgAlt="Repairs Image" />
                       </Anchor>
                       <CardBody otherClasses="text-white px-0">
-                        <CardTitle otherClasses="lead homeserve-thick">Do you need a one-off repair?</CardTitle>
-                        <CardText otherClasses="homeserve-medium">
+                        <CardTitle otherClasses="lead fw-bold">Do you need a one-off repair?</CardTitle>
+                        <CardText>
                           <p>Our team of engineers are on hand, ready to help fix a range of issues.</p>
                         </CardText>
                       </CardBody>

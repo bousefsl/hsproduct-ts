@@ -18,7 +18,7 @@ export default function ProductsServices() {
               <h2 className="text-center">Our products and services</h2>
               <div className="row justify-content-center">
                 <div className="col-md-10 col-lg-8">
-                  <p className="homeserve-medium text-start text-md-center mb-5">Vim te porro labores maluisset, id possim equidem detracto has. Per ne nisl exerci ornatus, eu semper sanctus duo. Eos inani lucilius partiendo ut, ea ius error minimum fierent.</p>
+                  <p className="text-start text-md-center mb-5">Vim te porro labores maluisset, id possim equidem detracto has. Per ne nisl exerci ornatus, eu semper sanctus duo. Eos inani lucilius partiendo ut, ea ius error minimum fierent.</p>
                 </div>
               </div>
               <div className="row">

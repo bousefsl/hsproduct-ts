@@ -14,7 +14,7 @@ export default function WhyChooseUsListItem({ iconImg, iconImgAlt, listContent }
         <img className={classes["wcu-img-item"]} src={iconImg} alt={iconImgAlt} />
       </div>
       <div className="align-self-center pt-3">
-        <p className="h4 homeserve-medium">{listContent}</p>
+        <p className="h4">{listContent}</p>
       </div>
     </li>
   )

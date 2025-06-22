@@ -17,7 +17,7 @@ export default function NotFound() {
               <MetaTags title="HS Insurance | Error Page" keywords="lorem, ipsum, sit, dolor, amet" description="Lorem ipsum sit dolor amet" name="Scott" />
               {/* SEO -- End */}
 
-              <p className="lead homeserve-thin fw-mediumbold mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatem. Ab saepe eveniet perspiciatis maiores voluptatem minus aliquam, sequi temporibus, vel.</p>
+              <p className="lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatem. Ab saepe eveniet perspiciatis maiores voluptatem minus aliquam, sequi temporibus, vel.</p>
               <div className="d-grid gap-2 d-md-block">
                 <Link to="/" className="btn btn-primary me-md-2">
                   Home

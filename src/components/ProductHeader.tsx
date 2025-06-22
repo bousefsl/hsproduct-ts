@@ -39,11 +39,11 @@ export default function ProductHeader(product: ProductProps) {
                   <div className="card-body">
                     <div className="d-flex mb-1">
                       <div>
-                        <p className="h4 homeserve-medium fw-bold">Monthly cost:</p>
+                        <p className="h4 fw-bold">Monthly cost:</p>
                       </div>
                       <div className="ms-auto">
                         <p className="text-end">
-                          <span className="h3 homeserve-medium fw-bold">{formatCurrency(product.monthlyCost)}</span> <br />
+                          <span className="h3 fw-bold">{formatCurrency(product.monthlyCost)}</span> <br />
                           (in your first year)
                         </p>
                       </div>
@@ -51,18 +51,18 @@ export default function ProductHeader(product: ProductProps) {
                     <hr />
                     <div className="d-flex mb-1">
                       <div>
-                        <p className="h5 homeserve-thin fw-bold">Annual price:</p>
+                        <p className="h5 fw-bold">Annual price:</p>
                       </div>
                       <div className="ms-auto">
-                        <p className="h5 homeserve-thin fw-bold text-end">{formatCurrency(product.annualCost)}</p>
+                        <p className="h5 fw-bold text-end">{formatCurrency(product.annualCost)}</p>
                       </div>
                     </div>
                     <div className="d-flex mb-3">
                       <div>
-                        <p className="h5 homeserve-thin fw-bold">Your excess:</p>
+                        <p className="h5 fw-bold">Your excess:</p>
                       </div>
                       <div className="ms-auto">
-                        <p className="h5 homeserve-thin fw-bold text-end">{formatCurrency(product.excessCost)}</p>
+                        <p className="h5 fw-bold text-end">{formatCurrency(product.excessCost)}</p>
                       </div>
                     </div>
                     <p className="text-center">

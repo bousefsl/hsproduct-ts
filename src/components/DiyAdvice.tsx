@@ -1,3 +1,4 @@
+import { useState } from "react"
 //Components
 import { Anchor } from "./global/CTAs"
 import { Card, CardBody, CardFooter, CardImg, CardTitle } from "./global/Cards"
@@ -6,6 +7,8 @@ import OverflowPipeImg from "../assets/images/leaking-overflow-pipe.jpg"
 import BlockedToiletImg from "../assets/images/blocked-toilet.jpg"
 import OutsideDrainImg from "../assets/images/blocked-outside-drain.jpg"
 import BoilerProblemsImg from "../assets/images/common-boiler-problems.jpg"
+//React Intersection Observer
+import { useInView, InView } from "react-intersection-observer"
 
 export default function DiyAdvice() {
   const diyCards = [
@@ -38,6 +41,20 @@ export default function DiyAdvice() {
       cardFooterContent: "19 Mar 2021 | 7 minutes",
     },
   ]
+  const [visibleSection, setVisibleSection] = useState<string | null>()
+
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  })
+
+  const setInView = (inView: boolean, entry: IntersectionObserverEntry) => {
+    if (inView) {
+      // console.log(entry)
+      // console.log(inView)
+      setVisibleSection(entry.target.getAttribute("class"))
+    }
+  }
+
   return (
     <div className="diy-hacks">
       <section className="section-spacer">
@@ -54,25 +71,28 @@ export default function DiyAdvice() {
               </div>
             </div>
           </div>
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-            {diyCards.map((card) => {
-              return (
-                <div key={card.id} className="col">
-                  <Card otherClasses="h-100">
-                    <CardImg imgSrc={card.cardImg} imgAlt="" />
-                    <CardBody>
-                      <p>
-                        <Anchor linkTo="#" linkClass="fw-bold">
-                          {card.cardBodyContent}
-                        </Anchor>
-                      </p>
-                      <CardTitle otherClasses="fw-bold">{card.cardTitleContent}</CardTitle>
-                    </CardBody>
-                    <CardFooter otherClasses="fw-bold">{card.cardFooterContent}</CardFooter>
-                  </Card>
-                </div>
-              )
-            })}
+
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4" ref={ref}>
+            {diyCards.map((card) => (
+              <InView onChange={setInView} threshold={0.2} key={card.id}>
+                {({ ref }) => (
+                  <div className={`col scroll-up-hidden ${inView ? "show-element" : ""}`} ref={ref}>
+                    <Card otherClasses="h-100">
+                      <CardImg imgSrc={card.cardImg} imgAlt="" />
+                      <CardBody>
+                        <p>
+                          <Anchor linkTo="#" linkClass="fw-bold">
+                            {card.cardBodyContent}
+                          </Anchor>
+                        </p>
+                        <CardTitle otherClasses="fw-bold">{card.cardTitleContent}</CardTitle>
+                      </CardBody>
+                      <CardFooter otherClasses="fw-bold">{card.cardFooterContent}</CardFooter>
+                    </Card>
+                  </div>
+                )}
+              </InView>
+            ))}
           </div>
         </div>
       </section>

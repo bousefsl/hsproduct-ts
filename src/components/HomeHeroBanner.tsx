@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react"
 //Components
 import ProductFinder from "./ProductFinder"
 import { ButtonLink } from "./global/CTAs"
@@ -5,8 +6,21 @@ import { ButtonLink } from "./global/CTAs"
 import classes from "../assets/styles/homehero.module.css"
 //Images
 import HeroImg from "../assets/images/hero.jpg"
+//Motion
+import { animate } from "motion"
 
 export default function HomeHeroBanner() {
+  //Motion (animation)
+  const headerRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    document.fonts.ready.then(() => {
+      const words = headerRef.current?.querySelector("h1")!
+
+      animate(words, { opacity: [0, 1], x: [-20, 0] }, { type: "spring", duration: 0.5, bounce: 0, delay: 0.1 })
+    })
+  }, [])
+
   return (
     <div className="hero">
       <section className="section-spacer">
@@ -14,7 +28,7 @@ export default function HomeHeroBanner() {
           <div className="container-xl py-5">
             <div className="row">
               <div className="col-12 col-sm-8 col-md-6">
-                <div className={classes["hero-content"]}>
+                <div className={classes["hero-content"]} ref={headerRef}>
                   <div className={`${classes["sales-msg"]} mb-4`}>
                     <span className="h4">Limited offer</span>
                   </div>

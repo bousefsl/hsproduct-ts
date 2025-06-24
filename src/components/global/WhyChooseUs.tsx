@@ -1,3 +1,4 @@
+import { useRef } from "react"
 //Components
 import { ButtonLink } from "./CTAs"
 //Styles
@@ -9,6 +10,8 @@ import RadiatorImg from "../../assets/images/radiator.svg"
 import PhoneImg from "../../assets/images/phone.svg"
 import RosetteImg from "../../assets/images/rosette.svg"
 import WhyChooseUsListItem from "./WhyChooseUsListItem"
+//Motion
+import { useInView } from "motion/react"
 
 export default function WhyChooseUs() {
   const wcuContent = [
@@ -44,13 +47,19 @@ export default function WhyChooseUs() {
     },
   ]
 
+  //Motion (animation)
+  const wcuHeaderRef = useRef(null)
+  const ref = useRef(null)
+  const isInView = useInView(wcuHeaderRef, { once: true, amount: 0 })
+  const isListItemInView = useInView(ref, { once: true, amount: 0 })
+
   return (
     <div className="why-choose-us">
       <section className="section-spacer bg-white pb-4">
         <div className={`${classes["wcu-wrapper"]} pt-5`}>
           <div className="container-xl">
             <div className="d-flex flex-column flex-lg-row">
-              <div className={`d-flex align-items-center ${classes["wcu-header"]}`}>
+              <div className={`d-flex align-items-center scroll-ltor-hidden ${classes["wcu-header"]} ${isInView ? "show-element" : ""}`} ref={wcuHeaderRef}>
                 <div className="mb-5">
                   <h2 className="h1">Why choose us?</h2>
                   <p className="mb-4">Whether it's 24/7 home emergency cover, a one-off repair, or new boiler, you can trust we'll take care of it.</p>
@@ -67,7 +76,11 @@ export default function WhyChooseUs() {
               <div className={classes["wcu-list"]}>
                 <ul className="p-0 mb-5">
                   {wcuContent.map((item) => {
-                    return <WhyChooseUsListItem key={item.id} {...item} />
+                    return (
+                      <span key={item.id} className={`fade-in-hidden ${isListItemInView ? "show-element" : ""}`} ref={ref}>
+                        <WhyChooseUsListItem {...item} />
+                      </span>
+                    )
                   })}
                 </ul>
               </div>

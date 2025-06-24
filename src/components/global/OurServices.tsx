@@ -6,8 +6,16 @@ import classes from "../../assets/styles/ourservices.module.css"
 //Images
 import ServicesHeatPumpImg from "../../assets/images/services-heat-pump.jpg"
 import ServicesRepairsImg from "../../assets/images/services-one-off-repair.jpg"
+import { useRef } from "react"
+import { useInView } from "motion/react"
 
 export default function OurServices() {
+  //Motion (animation)
+  const osHeaderRef = useRef(null)
+  const ref = useRef(null)
+  const isHeaderInView = useInView(osHeaderRef, { once: true, amount: 0 })
+  const isInView = useInView(ref, { once: true, amount: 0 })
+
   return (
     <div className="our-services">
       <section className="section-spacer">
@@ -16,7 +24,7 @@ export default function OurServices() {
             <div className="row">
               <div className="col-sm-6 col-lg-4">
                 <div className="d-flex align-items-center h-100">
-                  <div>
+                  <div ref={osHeaderRef} className={`scroll-ltor-hidden ${isHeaderInView ? "show-element" : ""}`}>
                     <h2 className="h1">Our Services</h2>
                     <p className="mb-4">Augue tamquam recteque ex mea. Nec summo albucius euripidis id. Tota conceptam referrentur mea at, sea graeco utroque at.</p>
                     <ButtonLink toLink="#" variant="secondary" otherClasses="mb-3">
@@ -41,7 +49,7 @@ export default function OurServices() {
                 </Card>
               </div>
               <div className="col-sm-12 col-lg-4 mt-4 mt-lg-0">
-                <div className="row">
+                <div className={`row scroll-rtol-hidden short ${isInView ? "show-element" : ""}`} ref={ref}>
                   <div className="col-12 col-sm-6">
                     <Card otherClasses="card-transparent">
                       <Anchor linkTo="#" linkClass="mb-3">

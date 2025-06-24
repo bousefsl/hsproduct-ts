@@ -1,14 +1,21 @@
-import { useState } from "react"
+import { useRef, useState } from "react"
 //React Router
 import { useNavigate } from "react-router"
 //Components
 import { Button } from "./global/CTAs"
 //Styles
 import classes from "../assets/styles/productfinder.module.css"
+//Motion
+import { useInView } from "motion/react"
 
 export default function ProductFinder() {
   const navigate = useNavigate()
 
+  //Motion (animation)
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true, amount: 0 })
+
+  //Product Finder Dropdown State/Actions
   const [propertyOwnerTypeText, setPropertyOwnerTypeText] = useState<string>("You are a...?")
   const [coverTypeText, setCoverTypeText] = useState<string>("What would you like to cover?")
   const [propertyTypeText, setPropertyTypeText] = useState<string>("For what type of property?")
@@ -60,7 +67,7 @@ export default function ProductFinder() {
       <div className="container-xl">
         <div className="row">
           <div className="col-12">
-            <div className={classes["product-wrapper"]}>
+            <div className={`${classes["product-wrapper"]} scroll-up-hidden short short-delay ${isInView ? "show-element" : ""}`} ref={ref}>
               <p className="h4 fw-bold mb-4">Need help? Let's find the right cover for you</p>
               <form className={`row gx-3 gy-1 ${classes["col-bg"]}`} onSubmit={handleSubmit}>
                 <div className={`col-lg-3 ${classes["col-border"]}`}>

@@ -6,7 +6,7 @@
 }
 
 //"Scroll into view" component animations
-.scroll-up-hidden, .scroll-ltor-hidden, .scroll-rtol-hidden {
+.scroll-up-hidden, .scroll-ltor-hidden, .scroll-rtol-hidden, .fade-in-hidden {
     opacity: 0; transition: all 0.5s; filter: blur(0.5rem);
 
     @media(prefers-reduced-motion) {
@@ -19,22 +19,28 @@
 .scroll-up-hidden {
     transform: translateY(200px);
 
+    &.short {transform: translateY(50px);}
+
     &.show-element {transform: translateY(0);}
 }
 .scroll-ltor-hidden {
     transform: translateX(-100%);
+
+    &.short {transform: translateX(-50px);}
 }
 .scroll-rtol-hidden {
     transform: translateX(100%);
+
+    &.short {transform: translateX(50px);}
 }
 .scroll-ltor-hidden, .scroll-rtol-hidden {
     &.show-element{transform: translateX(0);}
 }
-.scroll-up-hidden, .scroll-ltor-hidden, .scroll-rtol-hidden {
-    &:nth-child(1) {transition-delay: 0ms;}
-    &:nth-child(2) {transition-delay: 200ms;}
-    &:nth-child(3) {transition-delay: 400ms;}
-    &:nth-child(4) {transition-delay: 600ms;}
-    &:nth-child(5) {transition-delay: 800ms;}
-    &:nth-child(6) {transition-delay: 1000ms;}
+.scroll-up-hidden, .scroll-ltor-hidden, .scroll-rtol-hidden, .fade-in-hidden {
+    &:nth-child(1) {transition-delay: 200ms;}
+    &:nth-child(2) {transition-delay: 400ms;}
+    &:nth-child(3) {transition-delay: 600ms;}
+    &:nth-child(4) {transition-delay: 800ms;}
+    &:nth-child(5) {transition-delay: 1000ms;}
+    &:nth-child(6) {transition-delay: 1200ms;}
 }

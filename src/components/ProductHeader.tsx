@@ -1,4 +1,5 @@
 import { Fragment } from "react/jsx-runtime"
+import { useRef } from "react"
 //React Router
 import { Link } from "react-router"
 //Components
@@ -7,15 +8,23 @@ import { ButtonLink } from "./global/CTAs"
 import type { ProductProps } from "../types"
 //Utilities
 import formatCurrency from "../utilities/formatCurrency"
+//Motion
+import { useInView } from "motion/react"
 
 export default function ProductHeader(product: ProductProps) {
+  //Motion (animation)
+  const titleRef = useRef(null)
+  const costSectionRef = useRef(null)
+  const isTitleInView = useInView(titleRef, { once: true, amount: 0 })
+  const isCostSectionInView = useInView(costSectionRef, { once: true, amount: 0 })
+
   return (
     <div className="product-header">
       <section className="section-spacer section-spacer-top">
         <div className="container-xl">
           <div className="row">
             <div className="col-md-6">
-              <div>
+              <div className={`scroll-ltor-hidden short delay ${isTitleInView ? "show-element" : ""}`} ref={titleRef}>
                 <h1 className="mb-4">{product.title}</h1>
                 <div className="mb-5">
                   {product.productParagraph.map((item, index) => {
@@ -32,7 +41,7 @@ export default function ProductHeader(product: ProductProps) {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="product-costing">
+              <div className={`product-costing fade-in-hidden delay ${isCostSectionInView ? "show-element" : ""}`} ref={costSectionRef}>
                 <div className="card text-bg-dark-gray-700 mx-sm-5 mx-md-0 ms-lg-5">
                   {product.hasOffer ? <div className="card-header">{product.hasOfferContent}</div> : <Fragment></Fragment>}
                   <div className="card-body">

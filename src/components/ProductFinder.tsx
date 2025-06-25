@@ -67,7 +67,7 @@ export default function ProductFinder() {
       <div className="container-xl">
         <div className="row">
           <div className="col-12">
-            <div className={`${classes["product-wrapper"]} scroll-up-hidden short short-delay ${isInView ? "show-element" : ""}`} ref={ref}>
+            <div className={`${classes["product-wrapper"]} scroll-up-hidden short delay ${isInView ? "show-element" : ""}`} ref={ref}>
               <p className="h4 fw-bold mb-4">Need help? Let's find the right cover for you</p>
               <form className={`row gx-3 gy-1 ${classes["col-bg"]}`} onSubmit={handleSubmit}>
                 <div className={`col-lg-3 ${classes["col-border"]}`}>

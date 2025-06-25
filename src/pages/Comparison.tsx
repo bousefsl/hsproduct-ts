@@ -9,6 +9,8 @@ import { Button } from "../components/global/CTAs"
 import { comparisonProductsLoader } from "../loaders/comparison-products"
 //Types
 import type { CompProductProps } from "../types"
+//Motion
+import { useInView } from "motion/react"
 
 export default function Comparison() {
   //Array to map through to generate the "productCategory" <select> options (checks against the "coverState.cover" value above)
@@ -25,12 +27,18 @@ export default function Comparison() {
     productRef.current = productCategory || ""
   }, [productCategory])
 
+  //Motion
+  const titleRef = useRef(null)
+  const isInView = useInView(titleRef, { once: true })
+
   return (
     <section className="section-spacer section-spacer-top">
       <div className="container-xl">
         <div className="row">
           <div className="col">
-            <h1>{products.length > 0 ? `Compare ${products[0].productCategory.toLowerCase()} cover` : "Oops! Something went wrong..."}</h1>
+            <h1 className={`scroll-down-hidden short ${isInView ? "show-element" : ""}`} ref={titleRef}>
+              {products.length > 0 ? `Compare ${products[0].productCategory.toLowerCase()} cover` : "Oops! Something went wrong..."}
+            </h1>
             {/* SEO */}
             <MetaTags title={products.length > 0 ? `HS Comparison | ${products[0].productCategory}` : "HS Comparison | Error"} keywords="lorem, ipsum, sit, dolor, amet" description="Lorem ipsum sit dolor amet" name="Scott" />
             {/* SEO -- End */}

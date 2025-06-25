@@ -9,6 +9,8 @@ import { Button } from "../components/global/CTAs"
 import { landlordComparisonProductsLoader } from "../loaders/comparison-products"
 //Types
 import type { LandlordCompProductProps } from "../types"
+//Motion
+import { useInView } from "motion/react"
 
 export default function LandlordComparison() {
   //Array to map through to generate the "productCategory" <select> options (checks against the "coverState.cover" value above)
@@ -25,12 +27,18 @@ export default function LandlordComparison() {
     productRef.current = productCategory || ""
   }, [productCategory])
 
+  //Motion
+  const titleRef = useRef(null)
+  const isInView = useInView(titleRef, { once: true })
+
   return (
     <section className="section-spacer section-spacer-top">
       <div className="container-xl">
         <div className="row">
           <div className="col">
-            <h1>{landlordproducts.length > 0 ? `Compare landlord's ${landlordproducts[0].productCategory.toLowerCase()} cover` : "Oops! Something went wrong..."}</h1>
+            <h1 className={`scroll-down-hidden short ${isInView ? "show-element" : ""}`} ref={titleRef}>
+              {landlordproducts.length > 0 ? `Compare landlord's ${landlordproducts[0].productCategory.toLowerCase()} cover` : "Oops! Something went wrong..."}
+            </h1>
             {/* SEO */}
             <MetaTags title={landlordproducts.length > 0 ? `HS Landlord's Comparison | ${landlordproducts[0].productCategory}` : "HS Landlord's Comparison | Error"} keywords="lorem, ipsum, sit, dolor, amet" description="Lorem ipsum sit dolor amet" name="Scott" />
             {/* SEO -- End */}

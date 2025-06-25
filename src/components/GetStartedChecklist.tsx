@@ -1,9 +1,16 @@
+import { useRef } from "react"
 //Types
 import type { ProductProps } from "../types"
 //Styles
 import classes from "../assets/styles/getstartedchecklist.module.css"
+//Motion
+import { useInView } from "motion/react"
 
 export default function GetStartedChecklist(product: ProductProps) {
+  //Motion
+  const listRef = useRef(null)
+  const isInView = useInView(listRef, { once: true, amount: 0 })
+
   return (
     <div className="get-started bg-light-gray-100">
       <section className="section-spacer section-spacer-top">
@@ -13,7 +20,7 @@ export default function GetStartedChecklist(product: ProductProps) {
               <div>
                 <h2 className="text-center mb-5">Let's get started</h2>
                 <ul className="mb-4 list-unstyled">
-                  <li className="d-flex mb-3">
+                  <li className={`d-flex mb-3 scroll-up-hidden short ${isInView ? "show-element" : ""}`} ref={listRef}>
                     <div className={`${classes["home-bg-marker"]} me-4`} style={{ backgroundImage: `url(/hs-house-bg.svg)` }}>
                       <span className={classes["home-bg-no"]}>1</span>
                     </div>
@@ -22,7 +29,7 @@ export default function GetStartedChecklist(product: ProductProps) {
                       <p>This is to make sure you're not paying for cover you don't need.</p>
                     </div>
                   </li>
-                  <li className="d-flex mb-3">
+                  <li className={`d-flex mb-3 scroll-up-hidden short ${isInView ? "show-element" : ""}`} ref={listRef}>
                     <div className={`${classes["home-bg-marker"]} me-4`} style={{ backgroundImage: `url(/hs-house-bg.svg)` }}>
                       <span className={classes["home-bg-no"]}>2</span>
                     </div>
@@ -31,7 +38,7 @@ export default function GetStartedChecklist(product: ProductProps) {
                       <p>Cover for {product.eligibilityOwnerPropertyCover} mobile homes, park homes, business premises, council and housing association properties is not included in this policy.</p>
                     </div>
                   </li>
-                  <li className="d-flex mb-3">
+                  <li className={`d-flex mb-3 scroll-up-hidden short ${isInView ? "show-element" : ""}`} ref={listRef}>
                     <div className={`${classes["home-bg-marker"]} me-4`} style={{ backgroundImage: `url(/hs-house-bg.svg)` }}>
                       <span className={classes["home-bg-no"]}>3</span>
                     </div>

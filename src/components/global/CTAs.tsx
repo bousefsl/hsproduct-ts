@@ -31,9 +31,9 @@ export function ButtonLink({ children, toLink, variant = "primary", otherClasses
 }
 
 //Button
-export function Button({ children, variant = "primary", ...props }: ButtonProps) {
+export function Button({ children, variant = "primary", otherClasses = "", ...props }: ButtonProps) {
   return (
-    <button className={`btn btn-${variant}`} {...props}>
+    <button className={`btn btn-${variant} ${otherClasses}`} {...props}>
       {children}
     </button>
   )

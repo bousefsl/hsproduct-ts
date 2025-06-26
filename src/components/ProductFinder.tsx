@@ -75,14 +75,14 @@ export default function ProductFinder() {
                     <button id="propertyOwnerType" className={`btn ${classes["btn-product-finder"]} dropdown-toggle`} type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Property owner type">
                       <i aria-hidden="true" className="icon-hs-customer icon-hs-1-5x text-primary"></i> {propertyOwnerTypeText}
                     </button>
-                    <ul className={`dropdown-menu ${classes["dd-menu"]}`}>
+                    <ul className="dropdown-menu w-100">
                       <li>
-                        <button className={`dropdown-item ${classes["dd-item"]}`} type="button" onClick={handlePropertyOwnerTypeSelection}>
+                        <button className="dropdown-item" type="button" onClick={handlePropertyOwnerTypeSelection}>
                           Homeowner
                         </button>
                       </li>
                       <li>
-                        <button className={`dropdown-item ${classes["dd-item"]}`} type="button" onClick={handlePropertyOwnerTypeSelection}>
+                        <button className="dropdown-item" type="button" onClick={handlePropertyOwnerTypeSelection}>
                           Landlord
                         </button>
                       </li>
@@ -94,19 +94,19 @@ export default function ProductFinder() {
                     <button id="coverType" className={`btn ${classes["btn-product-finder"]} dropdown-toggle`} type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Cover type">
                       <i aria-hidden="true" className="icon-hs-secure-shield icon-hs-1-5x text-primary"></i> {coverTypeText}
                     </button>
-                    <ul className={`dropdown-menu ${classes["dd-menu"]}`}>
+                    <ul className="dropdown-menu w-100">
                       <li>
-                        <button className={`dropdown-item ${classes["dd-item"]}`} type="button" onClick={handleCoverTypeSelection}>
+                        <button className="dropdown-item" type="button" onClick={handleCoverTypeSelection}>
                           Plumbing
                         </button>
                       </li>
                       <li>
-                        <button className={`dropdown-item ${classes["dd-item"]}`} type="button" onClick={handleCoverTypeSelection}>
+                        <button className="dropdown-item" type="button" onClick={handleCoverTypeSelection}>
                           Heating
                         </button>
                       </li>
                       <li>
-                        <button className={`dropdown-item ${classes["dd-item"]}`} type="button" onClick={handleCoverTypeSelection}>
+                        <button className="dropdown-item" type="button" onClick={handleCoverTypeSelection}>
                           Electrics
                         </button>
                       </li>
@@ -118,14 +118,14 @@ export default function ProductFinder() {
                     <button id="propertyType" className={`btn ${classes["btn-product-finder"]} dropdown-toggle`} type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Property type">
                       <i aria-hidden="true" className="icon-hs-home icon-hs-1-5x text-primary"></i> {propertyTypeText}
                     </button>
-                    <ul className={`dropdown-menu ${classes["dd-menu"]}`}>
+                    <ul className="dropdown-menu w-100">
                       <li>
-                        <button className={`dropdown-item ${classes["dd-item"]}`} type="button" onClick={handlePropertyTypeSelection}>
+                        <button className="dropdown-item" type="button" onClick={handlePropertyTypeSelection}>
                           House or Bungalow
                         </button>
                       </li>
                       <li>
-                        <button className={`dropdown-item ${classes["dd-item"]}`} type="button" onClick={handlePropertyTypeSelection}>
+                        <button className="dropdown-item" type="button" onClick={handlePropertyTypeSelection}>
                           Flat or Maisonette
                         </button>
                       </li>

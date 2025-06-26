@@ -83,20 +83,3 @@
     white-space: pre-wrap !important;
   }
 }
-
-.dd-menu {
-  width: 100%;
-  border-radius: 0.5rem !important;
-}
-
-.dd-item {
-  font-family: "museo-500", Arial, sans-serif !important;
-  font-weight: bold;
-  transition: all 0.15s ease-in;
-}
-
-.dd-item:hover,
-.dd-item:focus {
-  background-color: #0087b4 !important;
-  color: #fff !important;
-}

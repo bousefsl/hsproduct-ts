@@ -6,28 +6,54 @@
         border-radius: $btn-border-radius; border-width: $btn-border-width; border-style: solid;
         padding-left: $btn-padding-x; padding-right: $btn-padding-x;
         padding-top: $btn-padding-y; padding-bottom: $btn-padding-y;
-        transition: all 0.25s ease-in;
+        transition: all 0.25s ease-in; max-height: 2.75rem; position: relative;
 
         &:disabled, &.disabled, fieldset:disabled {
             opacity: $btn-disabled-opacity;
+        }
+
+        &[data-bs-toggle=dropdown][aria-expanded=false]::after {
+            -webkit-transform: rotate(180deg); transform: rotate(180deg); transition: all ease 0.5s;}
+
+        &[data-bs-toggle=dropdown][aria-expanded=true]::after {
+            -webkit-transform: rotate(0deg); transform: rotate(0deg); transition: all ease 0.5s;}
+        
+        &[data-bs-toggle=dropdown]{padding-right: 1.75rem;}
+
+        &[data-bs-toggle=dropdown]::after {
+            font-family: "HomeServe-Icons"; font-size: 1rem; content: "\e976" !important;
+            position: absolute; top: 0.55rem; right: 0.5rem; border: none !important;
         }
     }
 
     &.btn-primary {
         background-color: $red; border-color: $red; color: $white;
 
-        &:hover, &:focus {
-            background-color: $red-800; border-color: $red-800;
-        }
+        &:hover, &:focus {background-color: $red-800; border-color: $red-800;}
     }
 
     &.btn-secondary {
         background-color: $white; border-color: $red; color: $dark; font-weight: $btn-font-weight;
 
-        &:hover, &:focus {
-            background-color: $gray-100; border-color: $red-800;
+        &:hover, &:focus {background-color: $gray-100; border-color: $red-800;}
+    }
+}
+
+//Button Dropdowns
+.dropdown {
+    & .dropdown-menu {
+        &.show {
+            border-radius: $border-radius-light;
+
+            & > li {
+                & .dropdown-item {
+                    transition: all 0.15s ease-in;
+
+                    &:hover, &:focus {
+                        background-color: $blue; color: $white;
+                    }
+                }
+            }
         }
     }
-
-    
 }

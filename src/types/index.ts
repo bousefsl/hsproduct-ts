@@ -85,4 +85,5 @@ export type ButtonProps = {
   variant?: string
   disabled?: boolean
   id?: string
+  otherClasses?: string
 }

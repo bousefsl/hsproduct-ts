@@ -2,6 +2,7 @@
 import { Link } from "react-router"
 //Components
 import NavBar from "./NavBar"
+import { Anchor, Button, ButtonLink } from "./CTAs"
 //Styles
 import classes from "../../assets/styles/header.module.css"
 //Images
@@ -24,7 +25,28 @@ export default function Header() {
                 </picture>
               </Link>
             </div>
-            <div className="p-2"></div>
+            <div className="p-2 d-flex">
+              <ButtonLink toLink="#" variant="primary" otherClasses="me-2">
+                Make a claim
+              </ButtonLink>
+              <div className="dropdown">
+                <Button id="LoginRegister" variant="secondary" otherClasses="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Log in or register">
+                  <i aria-hidden="true" className="icon-hs-customer icon-hs-1-25x text-dark-gray-600"></i> Account
+                </Button>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Anchor linkTo="#" linkClass="dropdown-item">
+                      Log in
+                    </Anchor>
+                  </li>
+                  <li>
+                    <Anchor linkTo="#" linkClass="dropdown-item">
+                      Register
+                    </Anchor>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <NavBar />

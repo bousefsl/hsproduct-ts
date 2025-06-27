@@ -4,7 +4,7 @@ import useEmblaCarousel from "embla-carousel-react"
 import { EmblaOptionsType } from "embla-carousel"
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton"
 import { PrevButton, NextButton, usePrevNextButtons } from "./EmblaCarouselArrowButtons"
-
+import { SlideMessage, SlideWrapper } from "./EmblaSlide"
 //Images
 import PlumbingImg from "../../assets/images/slider-plumbing-drainage.jpg"
 import BoilerImg from "../../assets/images/slider-heating.jpg"
@@ -12,7 +12,6 @@ import ElectricsImg from "../../assets/images/slider-electrics.jpg"
 import LandlordsImg from "../../assets/images/slider-landlord.jpg"
 import HeatPumpImg from "../../assets/images/slider-heat-pump.jpg"
 import NewBoilerImg from "../../assets/images/slider-new-boiler.jpg"
-import { SlideMessage, SlideWrapper } from "./EmblaSlide"
 
 type PropType = {
   slides: number[]

@@ -1,10 +1,11 @@
 //React Router
-import { Link, useNavigate } from "react-router"
+import { Link, useNavigate, useRouteError } from "react-router"
 //Components
 import MetaTags from "../components/global/MetaTags"
 
 export default function NotFound() {
   const navigate = useNavigate()
+  const error: unknown = useRouteError()
 
   return (
     <section className="section-spacer section-spacer-top">
@@ -33,6 +34,11 @@ export default function NotFound() {
                   Go back
                 </Link>
               </div>
+              {import.meta.env.MODE !== "production" && (
+                <>
+                  <p>{(error as Error)?.message || (error as { statusText?: string })?.statusText}</p>
+                </>
+              )}
             </div>
           </div>
         </div>

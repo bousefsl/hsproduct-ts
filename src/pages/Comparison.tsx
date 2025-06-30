@@ -10,8 +10,6 @@ import { SkeletonComparisonCard, SkeletonList } from "../components/global/Skele
 import { comparisonProductsLoader } from "../loaders/comparison-products"
 //Types
 import type { CompProductProps } from "../types"
-//Styles
-import "../assets/css/skeleton.css"
 
 export default function Comparison() {
   //Array to map through to generate the "productCategory" <select> options (checks against the "coverState.cover" value above)

@@ -7,6 +7,7 @@ import { router } from "./router"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
 import "../src/assets/scss/bootstrap-theme.scss"
+import "../src/assets/css/skeleton.css"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
